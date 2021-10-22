@@ -1,0 +1,1281 @@
+date,name,category,value
+2021-08-01,Central Coast,X770,0
+2021-08-01,Correctional settings,X999,0
+2021-08-01,Far West,X860,0
+2021-08-01,Hunter New England,X800,0
+2021-08-01,Illawarra Shoalhaven,X730,0
+2021-08-01,Mid North Coast,X820,0
+2021-08-01,Murrumbidgee,X840,0
+2021-08-01,Nepean Blue Mountains,X720,2
+2021-08-01,Northern NSW,X710,0
+2021-08-01,Northern Sydney,X760,4
+2021-08-01,South Eastern Sydney,X740,13
+2021-08-01,South Western Sydney,X750,72
+2021-08-01,Southern NSW,X620,0
+2021-08-01,Sydney,X610,49
+2021-08-01,Western NSW,X560,0
+2021-08-01,Western Sydney,X870,53
+2021-08-02,Central Coast,X770,0
+2021-08-02,Correctional settings,X999,0
+2021-08-02,Far West,X860,0
+2021-08-02,Hunter New England,X800,0
+2021-08-02,Illawarra Shoalhaven,X730,0
+2021-08-02,Mid North Coast,X820,0
+2021-08-02,Murrumbidgee,X840,0
+2021-08-02,Nepean Blue Mountains,X720,13
+2021-08-02,Northern NSW,X710,0
+2021-08-02,Northern Sydney,X760,7
+2021-08-02,South Eastern Sydney,X740,22
+2021-08-02,South Western Sydney,X750,152
+2021-08-02,Southern NSW,X620,0
+2021-08-02,Sydney,X610,96
+2021-08-02,Western NSW,X560,0
+2021-08-02,Western Sydney,X870,110
+2021-08-03,Central Coast,X770,0
+2021-08-03,Correctional settings,X999,0
+2021-08-03,Far West,X860,0
+2021-08-03,Hunter New England,X800,0
+2021-08-03,Illawarra Shoalhaven,X730,3
+2021-08-03,Mid North Coast,X820,0
+2021-08-03,Murrumbidgee,X840,0
+2021-08-03,Nepean Blue Mountains,X720,23
+2021-08-03,Northern NSW,X710,0
+2021-08-03,Northern Sydney,X760,11
+2021-08-03,South Eastern Sydney,X740,30
+2021-08-03,South Western Sydney,X750,238
+2021-08-03,Southern NSW,X620,0
+2021-08-03,Sydney,X610,140
+2021-08-03,Western NSW,X560,0
+2021-08-03,Western Sydney,X870,190
+2021-08-04,Central Coast,X770,8
+2021-08-04,Correctional settings,X999,0
+2021-08-04,Far West,X860,0
+2021-08-04,Hunter New England,X800,1
+2021-08-04,Illawarra Shoalhaven,X730,3
+2021-08-04,Mid North Coast,X820,0
+2021-08-04,Murrumbidgee,X840,0
+2021-08-04,Nepean Blue Mountains,X720,40
+2021-08-04,Northern NSW,X710,0
+2021-08-04,Northern Sydney,X760,13
+2021-08-04,South Eastern Sydney,X740,45
+2021-08-04,South Western Sydney,X750,331
+2021-08-04,Southern NSW,X620,0
+2021-08-04,Sydney,X610,171
+2021-08-04,Western NSW,X560,0
+2021-08-04,Western Sydney,X870,268
+2021-08-05,Central Coast,X770,9
+2021-08-05,Correctional settings,X999,0
+2021-08-05,Far West,X860,0
+2021-08-05,Hunter New England,X800,6
+2021-08-05,Illawarra Shoalhaven,X730,3
+2021-08-05,Mid North Coast,X820,0
+2021-08-05,Murrumbidgee,X840,0
+2021-08-05,Nepean Blue Mountains,X720,61
+2021-08-05,Northern NSW,X710,0
+2021-08-05,Northern Sydney,X760,23
+2021-08-05,South Eastern Sydney,X740,61
+2021-08-05,South Western Sydney,X750,458
+2021-08-05,Southern NSW,X620,0
+2021-08-05,Sydney,X610,220
+2021-08-05,Western NSW,X560,0
+2021-08-05,Western Sydney,X870,359
+2021-08-06,Central Coast,X770,9
+2021-08-06,Correctional settings,X999,0
+2021-08-06,Far West,X860,0
+2021-08-06,Hunter New England,X800,11
+2021-08-06,Illawarra Shoalhaven,X730,3
+2021-08-06,Mid North Coast,X820,0
+2021-08-06,Murrumbidgee,X840,0
+2021-08-06,Nepean Blue Mountains,X720,89
+2021-08-06,Northern NSW,X710,0
+2021-08-06,Northern Sydney,X760,26
+2021-08-06,South Eastern Sydney,X740,85
+2021-08-06,South Western Sydney,X750,558
+2021-08-06,Southern NSW,X620,0
+2021-08-06,Sydney,X610,267
+2021-08-06,Western NSW,X560,0
+2021-08-06,Western Sydney,X870,451
+2021-08-07,Central Coast,X770,12
+2021-08-07,Correctional settings,X999,0
+2021-08-07,Far West,X860,0
+2021-08-07,Hunter New England,X800,22
+2021-08-07,Illawarra Shoalhaven,X730,3
+2021-08-07,Mid North Coast,X820,0
+2021-08-07,Murrumbidgee,X840,0
+2021-08-07,Nepean Blue Mountains,X720,115
+2021-08-07,Northern NSW,X710,0
+2021-08-07,Northern Sydney,X760,33
+2021-08-07,South Eastern Sydney,X740,96
+2021-08-07,South Western Sydney,X750,647
+2021-08-07,Southern NSW,X620,0
+2021-08-07,Sydney,X610,302
+2021-08-07,Western NSW,X560,0
+2021-08-07,Western Sydney,X870,519
+2021-08-08,Central Coast,X770,12
+2021-08-08,Correctional settings,X999,0
+2021-08-08,Far West,X860,0
+2021-08-08,Hunter New England,X800,33
+2021-08-08,Illawarra Shoalhaven,X730,3
+2021-08-08,Mid North Coast,X820,1
+2021-08-08,Murrumbidgee,X840,0
+2021-08-08,Nepean Blue Mountains,X720,135
+2021-08-08,Northern NSW,X710,0
+2021-08-08,Northern Sydney,X760,44
+2021-08-08,South Eastern Sydney,X740,120
+2021-08-08,South Western Sydney,X750,739
+2021-08-08,Southern NSW,X620,0
+2021-08-08,Sydney,X610,335
+2021-08-08,Western NSW,X560,0
+2021-08-08,Western Sydney,X870,587
+2021-08-09,Central Coast,X770,12
+2021-08-09,Correctional settings,X999,0
+2021-08-09,Far West,X860,0
+2021-08-09,Hunter New England,X800,39
+2021-08-09,Illawarra Shoalhaven,X730,3
+2021-08-09,Mid North Coast,X820,1
+2021-08-09,Murrumbidgee,X840,0
+2021-08-09,Nepean Blue Mountains,X720,162
+2021-08-09,Northern NSW,X710,0
+2021-08-09,Northern Sydney,X760,52
+2021-08-09,South Eastern Sydney,X740,161
+2021-08-09,South Western Sydney,X750,844
+2021-08-09,Southern NSW,X620,0
+2021-08-09,Sydney,X610,377
+2021-08-09,Western NSW,X560,0
+2021-08-09,Western Sydney,X870,723
+2021-08-10,Central Coast,X770,14
+2021-08-10,Correctional settings,X999,0
+2021-08-10,Far West,X860,0
+2021-08-10,Hunter New England,X800,60
+2021-08-10,Illawarra Shoalhaven,X730,4
+2021-08-10,Mid North Coast,X820,1
+2021-08-10,Murrumbidgee,X840,0
+2021-08-10,Nepean Blue Mountains,X720,204
+2021-08-10,Northern NSW,X710,0
+2021-08-10,Northern Sydney,X760,59
+2021-08-10,South Eastern Sydney,X740,182
+2021-08-10,South Western Sydney,X750,946
+2021-08-10,Southern NSW,X620,0
+2021-08-10,Sydney,X610,418
+2021-08-10,Western NSW,X560,1
+2021-08-10,Western Sydney,X870,824
+2021-08-11,Central Coast,X770,14
+2021-08-11,Correctional settings,X999,0
+2021-08-11,Far West,X860,0
+2021-08-11,Hunter New England,X800,78
+2021-08-11,Illawarra Shoalhaven,X730,4
+2021-08-11,Mid North Coast,X820,1
+2021-08-11,Murrumbidgee,X840,0
+2021-08-11,Nepean Blue Mountains,X720,235
+2021-08-11,Northern NSW,X710,0
+2021-08-11,Northern Sydney,X760,65
+2021-08-11,South Eastern Sydney,X740,201
+2021-08-11,South Western Sydney,X750,1082
+2021-08-11,Southern NSW,X620,0
+2021-08-11,Sydney,X610,471
+2021-08-11,Western NSW,X560,6
+2021-08-11,Western Sydney,X870,925
+2021-08-12,Central Coast,X770,17
+2021-08-12,Correctional settings,X999,1
+2021-08-12,Far West,X860,0
+2021-08-12,Hunter New England,X800,86
+2021-08-12,Illawarra Shoalhaven,X730,4
+2021-08-12,Mid North Coast,X820,1
+2021-08-12,Murrumbidgee,X840,0
+2021-08-12,Nepean Blue Mountains,X720,279
+2021-08-12,Northern NSW,X710,0
+2021-08-12,Northern Sydney,X760,72
+2021-08-12,South Eastern Sydney,X740,229
+2021-08-12,South Western Sydney,X750,1195
+2021-08-12,Southern NSW,X620,0
+2021-08-12,Sydney,X610,508
+2021-08-12,Western NSW,X560,20
+2021-08-12,Western Sydney,X870,1070
+2021-08-13,Central Coast,X770,21
+2021-08-13,Correctional settings,X999,1
+2021-08-13,Far West,X860,0
+2021-08-13,Hunter New England,X800,100
+2021-08-13,Illawarra Shoalhaven,X730,7
+2021-08-13,Mid North Coast,X820,1
+2021-08-13,Murrumbidgee,X840,0
+2021-08-13,Nepean Blue Mountains,X720,340
+2021-08-13,Northern NSW,X710,0
+2021-08-13,Northern Sydney,X760,87
+2021-08-13,South Eastern Sydney,X740,258
+2021-08-13,South Western Sydney,X750,1291
+2021-08-13,Southern NSW,X620,0
+2021-08-13,Sydney,X610,552
+2021-08-13,Western NSW,X560,37
+2021-08-13,Western Sydney,X870,1240
+2021-08-14,Central Coast,X770,24
+2021-08-14,Correctional settings,X999,2
+2021-08-14,Far West,X860,0
+2021-08-14,Hunter New England,X800,109
+2021-08-14,Illawarra Shoalhaven,X730,8
+2021-08-14,Mid North Coast,X820,1
+2021-08-14,Murrumbidgee,X840,0
+2021-08-14,Nepean Blue Mountains,X720,368
+2021-08-14,Northern NSW,X710,0
+2021-08-14,Northern Sydney,X760,92
+2021-08-14,South Eastern Sydney,X740,277
+2021-08-14,South Western Sydney,X750,1363
+2021-08-14,Southern NSW,X620,0
+2021-08-14,Sydney,X610,578
+2021-08-14,Western NSW,X560,60
+2021-08-14,Western Sydney,X870,1377
+2021-08-15,Central Coast,X770,25
+2021-08-15,Correctional settings,X999,3
+2021-08-15,Far West,X860,0
+2021-08-15,Hunter New England,X800,124
+2021-08-15,Illawarra Shoalhaven,X730,8
+2021-08-15,Mid North Coast,X820,1
+2021-08-15,Murrumbidgee,X840,0
+2021-08-15,Nepean Blue Mountains,X720,391
+2021-08-15,Northern NSW,X710,0
+2021-08-15,Northern Sydney,X760,99
+2021-08-15,South Eastern Sydney,X740,301
+2021-08-15,South Western Sydney,X750,1524
+2021-08-15,Southern NSW,X620,0
+2021-08-15,Sydney,X610,617
+2021-08-15,Western NSW,X560,91
+2021-08-15,Western Sydney,X870,1578
+2021-08-16,Central Coast,X770,25
+2021-08-16,Correctional settings,X999,3
+2021-08-16,Far West,X860,1
+2021-08-16,Hunter New England,X800,133
+2021-08-16,Illawarra Shoalhaven,X730,11
+2021-08-16,Mid North Coast,X820,1
+2021-08-16,Murrumbidgee,X840,0
+2021-08-16,Nepean Blue Mountains,X720,431
+2021-08-16,Northern NSW,X710,0
+2021-08-16,Northern Sydney,X760,109
+2021-08-16,South Eastern Sydney,X740,324
+2021-08-16,South Western Sydney,X750,1722
+2021-08-16,Southern NSW,X620,0
+2021-08-16,Sydney,X610,668
+2021-08-16,Western NSW,X560,110
+2021-08-16,Western Sydney,X870,1801
+2021-08-17,Central Coast,X770,26
+2021-08-17,Correctional settings,X999,3
+2021-08-17,Far West,X860,4
+2021-08-17,Hunter New England,X800,147
+2021-08-17,Illawarra Shoalhaven,X730,14
+2021-08-17,Mid North Coast,X820,2
+2021-08-17,Murrumbidgee,X840,0
+2021-08-17,Nepean Blue Mountains,X720,483
+2021-08-17,Northern NSW,X710,0
+2021-08-17,Northern Sydney,X760,116
+2021-08-17,South Eastern Sydney,X740,345
+2021-08-17,South Western Sydney,X750,1901
+2021-08-17,Southern NSW,X620,1
+2021-08-17,Sydney,X610,717
+2021-08-17,Western NSW,X560,134
+2021-08-17,Western Sydney,X870,1995
+2021-08-18,Central Coast,X770,28
+2021-08-18,Correctional settings,X999,4
+2021-08-18,Far West,X860,6
+2021-08-18,Hunter New England,X800,152
+2021-08-18,Illawarra Shoalhaven,X730,15
+2021-08-18,Mid North Coast,X820,2
+2021-08-18,Murrumbidgee,X840,0
+2021-08-18,Nepean Blue Mountains,X720,551
+2021-08-18,Northern NSW,X710,0
+2021-08-18,Northern Sydney,X760,129
+2021-08-18,South Eastern Sydney,X740,373
+2021-08-18,South Western Sydney,X750,2082
+2021-08-18,Southern NSW,X620,3
+2021-08-18,Sydney,X610,770
+2021-08-18,Western NSW,X560,159
+2021-08-18,Western Sydney,X870,2252
+2021-08-19,Central Coast,X770,29
+2021-08-19,Correctional settings,X999,5
+2021-08-19,Far West,X860,12
+2021-08-19,Hunter New England,X800,154
+2021-08-19,Illawarra Shoalhaven,X730,16
+2021-08-19,Mid North Coast,X820,3
+2021-08-19,Murrumbidgee,X840,0
+2021-08-19,Nepean Blue Mountains,X720,600
+2021-08-19,Northern NSW,X710,0
+2021-08-19,Northern Sydney,X760,138
+2021-08-19,South Eastern Sydney,X740,407
+2021-08-19,South Western Sydney,X750,2338
+2021-08-19,Southern NSW,X620,3
+2021-08-19,Sydney,X610,826
+2021-08-19,Western NSW,X560,193
+2021-08-19,Western Sydney,X870,2560
+2021-08-20,Central Coast,X770,30
+2021-08-20,Correctional settings,X999,8
+2021-08-20,Far West,X860,24
+2021-08-20,Hunter New England,X800,158
+2021-08-20,Illawarra Shoalhaven,X730,16
+2021-08-20,Mid North Coast,X820,3
+2021-08-20,Murrumbidgee,X840,0
+2021-08-20,Nepean Blue Mountains,X720,651
+2021-08-20,Northern NSW,X710,0
+2021-08-20,Northern Sydney,X760,155
+2021-08-20,South Eastern Sydney,X740,458
+2021-08-20,South Western Sydney,X750,2569
+2021-08-20,Southern NSW,X620,5
+2021-08-20,Sydney,X610,895
+2021-08-20,Western NSW,X560,230
+2021-08-20,Western Sydney,X870,2850
+2021-08-21,Central Coast,X770,30
+2021-08-21,Correctional settings,X999,10
+2021-08-21,Far West,X860,24
+2021-08-21,Hunter New England,X800,163
+2021-08-21,Illawarra Shoalhaven,X730,16
+2021-08-21,Mid North Coast,X820,3
+2021-08-21,Murrumbidgee,X840,0
+2021-08-21,Nepean Blue Mountains,X720,719
+2021-08-21,Northern NSW,X710,0
+2021-08-21,Northern Sydney,X760,174
+2021-08-21,South Eastern Sydney,X740,500
+2021-08-21,South Western Sydney,X750,2799
+2021-08-21,Southern NSW,X620,5
+2021-08-21,Sydney,X610,984
+2021-08-21,Western NSW,X560,266
+2021-08-21,Western Sydney,X870,3171
+2021-08-22,Central Coast,X770,34
+2021-08-22,Correctional settings,X999,14
+2021-08-22,Far West,X860,37
+2021-08-22,Hunter New England,X800,165
+2021-08-22,Illawarra Shoalhaven,X730,20
+2021-08-22,Mid North Coast,X820,3
+2021-08-22,Murrumbidgee,X840,0
+2021-08-22,Nepean Blue Mountains,X720,772
+2021-08-22,Northern NSW,X710,0
+2021-08-22,Northern Sydney,X760,192
+2021-08-22,South Eastern Sydney,X740,533
+2021-08-22,South Western Sydney,X750,3011
+2021-08-22,Southern NSW,X620,5
+2021-08-22,Sydney,X610,1044
+2021-08-22,Western NSW,X560,288
+2021-08-22,Western Sydney,X870,3488
+2021-08-23,Central Coast,X770,35
+2021-08-23,Correctional settings,X999,17
+2021-08-23,Far West,X860,46
+2021-08-23,Hunter New England,X800,168
+2021-08-23,Illawarra Shoalhaven,X730,21
+2021-08-23,Mid North Coast,X820,3
+2021-08-23,Murrumbidgee,X840,0
+2021-08-23,Nepean Blue Mountains,X720,820
+2021-08-23,Northern NSW,X710,0
+2021-08-23,Northern Sydney,X760,209
+2021-08-23,South Eastern Sydney,X740,574
+2021-08-23,South Western Sydney,X750,3257
+2021-08-23,Southern NSW,X620,5
+2021-08-23,Sydney,X610,1113
+2021-08-23,Western NSW,X560,344
+2021-08-23,Western Sydney,X870,3820
+2021-08-24,Central Coast,X770,36
+2021-08-24,Correctional settings,X999,23
+2021-08-24,Far West,X860,48
+2021-08-24,Hunter New England,X800,170
+2021-08-24,Illawarra Shoalhaven,X730,27
+2021-08-24,Mid North Coast,X820,3
+2021-08-24,Murrumbidgee,X840,0
+2021-08-24,Nepean Blue Mountains,X720,891
+2021-08-24,Northern NSW,X710,0
+2021-08-24,Northern Sydney,X760,222
+2021-08-24,South Eastern Sydney,X740,618
+2021-08-24,South Western Sydney,X750,3542
+2021-08-24,Southern NSW,X620,5
+2021-08-24,Sydney,X610,1195
+2021-08-24,Western NSW,X560,379
+2021-08-24,Western Sydney,X870,4186
+2021-08-25,Central Coast,X770,38
+2021-08-25,Correctional settings,X999,27
+2021-08-25,Far West,X860,59
+2021-08-25,Hunter New England,X800,171
+2021-08-25,Illawarra Shoalhaven,X730,31
+2021-08-25,Mid North Coast,X820,3
+2021-08-25,Murrumbidgee,X840,0
+2021-08-25,Nepean Blue Mountains,X720,963
+2021-08-25,Northern NSW,X710,0
+2021-08-25,Northern Sydney,X760,244
+2021-08-25,South Eastern Sydney,X740,668
+2021-08-25,South Western Sydney,X750,3839
+2021-08-25,Southern NSW,X620,5
+2021-08-25,Sydney,X610,1306
+2021-08-25,Western NSW,X560,405
+2021-08-25,Western Sydney,X870,4547
+2021-08-26,Central Coast,X770,39
+2021-08-26,Correctional settings,X999,31
+2021-08-26,Far West,X860,62
+2021-08-26,Hunter New England,X800,173
+2021-08-26,Illawarra Shoalhaven,X730,35
+2021-08-26,Mid North Coast,X820,3
+2021-08-26,Murrumbidgee,X840,0
+2021-08-26,Nepean Blue Mountains,X720,1015
+2021-08-26,Northern NSW,X710,0
+2021-08-26,Northern Sydney,X760,261
+2021-08-26,South Eastern Sydney,X740,724
+2021-08-26,South Western Sydney,X750,4130
+2021-08-26,Southern NSW,X620,5
+2021-08-26,Sydney,X610,1391
+2021-08-26,Western NSW,X560,446
+2021-08-26,Western Sydney,X870,4935
+2021-08-27,Central Coast,X770,41
+2021-08-27,Correctional settings,X999,38
+2021-08-27,Far West,X860,66
+2021-08-27,Hunter New England,X800,178
+2021-08-27,Illawarra Shoalhaven,X730,44
+2021-08-27,Mid North Coast,X820,3
+2021-08-27,Murrumbidgee,X840,0
+2021-08-27,Nepean Blue Mountains,X720,1109
+2021-08-27,Northern NSW,X710,0
+2021-08-27,Northern Sydney,X760,298
+2021-08-27,South Eastern Sydney,X740,774
+2021-08-27,South Western Sydney,X750,4500
+2021-08-27,Southern NSW,X620,5
+2021-08-27,Sydney,X610,1488
+2021-08-27,Western NSW,X560,488
+2021-08-27,Western Sydney,X870,5344
+2021-08-28,Central Coast,X770,44
+2021-08-28,Correctional settings,X999,54
+2021-08-28,Far West,X860,75
+2021-08-28,Hunter New England,X800,182
+2021-08-28,Illawarra Shoalhaven,X730,57
+2021-08-28,Mid North Coast,X820,3
+2021-08-28,Murrumbidgee,X840,0
+2021-08-28,Nepean Blue Mountains,X720,1160
+2021-08-28,Northern NSW,X710,0
+2021-08-28,Northern Sydney,X760,324
+2021-08-28,South Eastern Sydney,X740,842
+2021-08-28,South Western Sydney,X750,4876
+2021-08-28,Southern NSW,X620,5
+2021-08-28,Sydney,X610,1580
+2021-08-28,Western NSW,X560,520
+2021-08-28,Western Sydney,X870,5763
+2021-08-29,Central Coast,X770,50
+2021-08-29,Correctional settings,X999,63
+2021-08-29,Far West,X860,80
+2021-08-29,Hunter New England,X800,183
+2021-08-29,Illawarra Shoalhaven,X730,60
+2021-08-29,Mid North Coast,X820,3
+2021-08-29,Murrumbidgee,X840,0
+2021-08-29,Nepean Blue Mountains,X720,1245
+2021-08-29,Northern NSW,X710,0
+2021-08-29,Northern Sydney,X760,346
+2021-08-29,South Eastern Sydney,X740,903
+2021-08-29,South Western Sydney,X750,5276
+2021-08-29,Southern NSW,X620,5
+2021-08-29,Sydney,X610,1692
+2021-08-29,Western NSW,X560,570
+2021-08-29,Western Sydney,X870,6209
+2021-08-30,Central Coast,X770,53
+2021-08-30,Correctional settings,X999,101
+2021-08-30,Far West,X860,81
+2021-08-30,Hunter New England,X800,186
+2021-08-30,Illawarra Shoalhaven,X730,62
+2021-08-30,Mid North Coast,X820,3
+2021-08-30,Murrumbidgee,X840,0
+2021-08-30,Nepean Blue Mountains,X720,1294
+2021-08-30,Northern NSW,X710,0
+2021-08-30,Northern Sydney,X760,363
+2021-08-30,South Eastern Sydney,X740,974
+2021-08-30,South Western Sydney,X750,5656
+2021-08-30,Southern NSW,X620,6
+2021-08-30,Sydney,X610,1818
+2021-08-30,Western NSW,X560,615
+2021-08-30,Western Sydney,X870,6556
+2021-08-31,Central Coast,X770,57
+2021-08-31,Correctional settings,X999,106
+2021-08-31,Far West,X860,85
+2021-08-31,Hunter New England,X800,193
+2021-08-31,Illawarra Shoalhaven,X730,74
+2021-08-31,Mid North Coast,X820,3
+2021-08-31,Murrumbidgee,X840,0
+2021-08-31,Nepean Blue Mountains,X720,1362
+2021-08-31,Northern NSW,X710,0
+2021-08-31,Northern Sydney,X760,393
+2021-08-31,South Eastern Sydney,X740,1029
+2021-08-31,South Western Sydney,X750,6058
+2021-08-31,Southern NSW,X620,6
+2021-08-31,Sydney,X610,1954
+2021-08-31,Western NSW,X560,648
+2021-08-31,Western Sydney,X870,7009
+2021-09-01,Central Coast,X770,64
+2021-09-01,Correctional settings,X999,124
+2021-09-01,Far West,X860,89
+2021-09-01,Hunter New England,X800,199
+2021-09-01,Illawarra Shoalhaven,X730,97
+2021-09-01,Mid North Coast,X820,3
+2021-09-01,Murrumbidgee,X840,0
+2021-09-01,Nepean Blue Mountains,X720,1444
+2021-09-01,Northern NSW,X710,0
+2021-09-01,Northern Sydney,X760,415
+2021-09-01,South Eastern Sydney,X740,1131
+2021-09-01,South Western Sydney,X750,6483
+2021-09-01,Southern NSW,X620,8
+2021-09-01,Sydney,X610,2101
+2021-09-01,Western NSW,X560,677
+2021-09-01,Western Sydney,X870,7473
+2021-09-02,Central Coast,X770,73
+2021-09-02,Correctional settings,X999,136
+2021-09-02,Far West,X860,103
+2021-09-02,Hunter New England,X800,208
+2021-09-02,Illawarra Shoalhaven,X730,107
+2021-09-02,Mid North Coast,X820,3
+2021-09-02,Murrumbidgee,X840,0
+2021-09-02,Nepean Blue Mountains,X720,1534
+2021-09-02,Northern NSW,X710,0
+2021-09-02,Northern Sydney,X760,443
+2021-09-02,South Eastern Sydney,X740,1238
+2021-09-02,South Western Sydney,X750,6946
+2021-09-02,Southern NSW,X620,8
+2021-09-02,Sydney,X610,2245
+2021-09-02,Western NSW,X560,730
+2021-09-02,Western Sydney,X870,7900
+2021-09-03,Central Coast,X770,86
+2021-09-03,Correctional settings,X999,147
+2021-09-03,Far West,X860,106
+2021-09-03,Hunter New England,X800,219
+2021-09-03,Illawarra Shoalhaven,X730,125
+2021-09-03,Mid North Coast,X820,4
+2021-09-03,Murrumbidgee,X840,0
+2021-09-03,Nepean Blue Mountains,X720,1623
+2021-09-03,Northern NSW,X710,0
+2021-09-03,Northern Sydney,X760,479
+2021-09-03,South Eastern Sydney,X740,1346
+2021-09-03,South Western Sydney,X750,7489
+2021-09-03,Southern NSW,X620,8
+2021-09-03,Sydney,X610,2395
+2021-09-03,Western NSW,X560,762
+2021-09-03,Western Sydney,X870,8412
+2021-09-04,Central Coast,X770,91
+2021-09-04,Correctional settings,X999,157
+2021-09-04,Far West,X860,109
+2021-09-04,Hunter New England,X800,230
+2021-09-04,Illawarra Shoalhaven,X730,139
+2021-09-04,Mid North Coast,X820,4
+2021-09-04,Murrumbidgee,X840,0
+2021-09-04,Nepean Blue Mountains,X720,1699
+2021-09-04,Northern NSW,X710,0
+2021-09-04,Northern Sydney,X760,502
+2021-09-04,South Eastern Sydney,X740,1447
+2021-09-04,South Western Sydney,X750,7894
+2021-09-04,Southern NSW,X620,8
+2021-09-04,Sydney,X610,2526
+2021-09-04,Western NSW,X560,791
+2021-09-04,Western Sydney,X870,8817
+2021-09-05,Central Coast,X770,100
+2021-09-05,Correctional settings,X999,167
+2021-09-05,Far West,X860,115
+2021-09-05,Hunter New England,X800,239
+2021-09-05,Illawarra Shoalhaven,X730,154
+2021-09-05,Mid North Coast,X820,4
+2021-09-05,Murrumbidgee,X840,0
+2021-09-05,Nepean Blue Mountains,X720,1748
+2021-09-05,Northern NSW,X710,0
+2021-09-05,Northern Sydney,X760,522
+2021-09-05,South Eastern Sydney,X740,1554
+2021-09-05,South Western Sydney,X750,8340
+2021-09-05,Southern NSW,X620,14
+2021-09-05,Sydney,X610,2659
+2021-09-05,Western NSW,X560,828
+2021-09-05,Western Sydney,X870,9152
+2021-09-06,Central Coast,X770,121
+2021-09-06,Correctional settings,X999,175
+2021-09-06,Far West,X860,119
+2021-09-06,Hunter New England,X800,244
+2021-09-06,Illawarra Shoalhaven,X730,181
+2021-09-06,Mid North Coast,X820,4
+2021-09-06,Murrumbidgee,X840,0
+2021-09-06,Nepean Blue Mountains,X720,1826
+2021-09-06,Northern NSW,X710,0
+2021-09-06,Northern Sydney,X760,547
+2021-09-06,South Eastern Sydney,X740,1657
+2021-09-06,South Western Sydney,X750,8733
+2021-09-06,Southern NSW,X620,14
+2021-09-06,Sydney,X610,2827
+2021-09-06,Western NSW,X560,860
+2021-09-06,Western Sydney,X870,9561
+2021-09-07,Central Coast,X770,141
+2021-09-07,Correctional settings,X999,194
+2021-09-07,Far West,X860,129
+2021-09-07,Hunter New England,X800,257
+2021-09-07,Illawarra Shoalhaven,X730,203
+2021-09-07,Mid North Coast,X820,4
+2021-09-07,Murrumbidgee,X840,0
+2021-09-07,Nepean Blue Mountains,X720,1892
+2021-09-07,Northern NSW,X710,0
+2021-09-07,Northern Sydney,X760,576
+2021-09-07,South Eastern Sydney,X740,1772
+2021-09-07,South Western Sydney,X750,9198
+2021-09-07,Southern NSW,X620,15
+2021-09-07,Sydney,X610,3011
+2021-09-07,Western NSW,X560,882
+2021-09-07,Western Sydney,X870,9999
+2021-09-08,Central Coast,X770,162
+2021-09-08,Correctional settings,X999,212
+2021-09-08,Far West,X860,132
+2021-09-08,Hunter New England,X800,269
+2021-09-08,Illawarra Shoalhaven,X730,233
+2021-09-08,Mid North Coast,X820,4
+2021-09-08,Murrumbidgee,X840,0
+2021-09-08,Nepean Blue Mountains,X720,1965
+2021-09-08,Northern NSW,X710,0
+2021-09-08,Northern Sydney,X760,610
+2021-09-08,South Eastern Sydney,X740,1900
+2021-09-08,South Western Sydney,X750,9667
+2021-09-08,Southern NSW,X620,16
+2021-09-08,Sydney,X610,3230
+2021-09-08,Western NSW,X560,912
+2021-09-08,Western Sydney,X870,10393
+2021-09-09,Central Coast,X770,194
+2021-09-09,Correctional settings,X999,254
+2021-09-09,Far West,X860,134
+2021-09-09,Hunter New England,X800,281
+2021-09-09,Illawarra Shoalhaven,X730,271
+2021-09-09,Mid North Coast,X820,4
+2021-09-09,Murrumbidgee,X840,0
+2021-09-09,Nepean Blue Mountains,X720,2057
+2021-09-09,Northern NSW,X710,0
+2021-09-09,Northern Sydney,X760,640
+2021-09-09,South Eastern Sydney,X740,2034
+2021-09-09,South Western Sydney,X750,10166
+2021-09-09,Southern NSW,X620,16
+2021-09-09,Sydney,X610,3413
+2021-09-09,Western NSW,X560,939
+2021-09-09,Western Sydney,X870,10824
+2021-09-10,Central Coast,X770,217
+2021-09-10,Correctional settings,X999,260
+2021-09-10,Far West,X860,147
+2021-09-10,Hunter New England,X800,291
+2021-09-10,Illawarra Shoalhaven,X730,295
+2021-09-10,Mid North Coast,X820,4
+2021-09-10,Murrumbidgee,X840,0
+2021-09-10,Nepean Blue Mountains,X720,2143
+2021-09-10,Northern NSW,X710,0
+2021-09-10,Northern Sydney,X760,691
+2021-09-10,South Eastern Sydney,X740,2195
+2021-09-10,South Western Sydney,X750,10643
+2021-09-10,Southern NSW,X620,18
+2021-09-10,Sydney,X610,3595
+2021-09-10,Western NSW,X560,951
+2021-09-10,Western Sydney,X870,11232
+2021-09-11,Central Coast,X770,247
+2021-09-11,Correctional settings,X999,266
+2021-09-11,Far West,X860,156
+2021-09-11,Hunter New England,X800,300
+2021-09-11,Illawarra Shoalhaven,X730,348
+2021-09-11,Mid North Coast,X820,4
+2021-09-11,Murrumbidgee,X840,0
+2021-09-11,Nepean Blue Mountains,X720,2227
+2021-09-11,Northern NSW,X710,0
+2021-09-11,Northern Sydney,X760,714
+2021-09-11,South Eastern Sydney,X740,2357
+2021-09-11,South Western Sydney,X750,11031
+2021-09-11,Southern NSW,X620,18
+2021-09-11,Sydney,X610,3738
+2021-09-11,Western NSW,X560,968
+2021-09-11,Western Sydney,X870,11566
+2021-09-12,Central Coast,X770,259
+2021-09-12,Correctional settings,X999,270
+2021-09-12,Far West,X860,159
+2021-09-12,Hunter New England,X800,317
+2021-09-12,Illawarra Shoalhaven,X730,377
+2021-09-12,Mid North Coast,X820,4
+2021-09-12,Murrumbidgee,X840,0
+2021-09-12,Nepean Blue Mountains,X720,2296
+2021-09-12,Northern NSW,X710,0
+2021-09-12,Northern Sydney,X760,733
+2021-09-12,South Eastern Sydney,X740,2472
+2021-09-12,South Western Sydney,X750,11453
+2021-09-12,Southern NSW,X620,21
+2021-09-12,Sydney,X610,3901
+2021-09-12,Western NSW,X560,978
+2021-09-12,Western Sydney,X870,11859
+2021-09-13,Central Coast,X770,272
+2021-09-13,Correctional settings,X999,276
+2021-09-13,Far West,X860,164
+2021-09-13,Hunter New England,X800,337
+2021-09-13,Illawarra Shoalhaven,X730,400
+2021-09-13,Mid North Coast,X820,4
+2021-09-13,Murrumbidgee,X840,0
+2021-09-13,Nepean Blue Mountains,X720,2373
+2021-09-13,Northern NSW,X710,0
+2021-09-13,Northern Sydney,X760,758
+2021-09-13,South Eastern Sydney,X740,2633
+2021-09-13,South Western Sydney,X750,11854
+2021-09-13,Southern NSW,X620,27
+2021-09-13,Sydney,X610,4060
+2021-09-13,Western NSW,X560,992
+2021-09-13,Western Sydney,X870,12192
+2021-09-14,Central Coast,X770,287
+2021-09-14,Correctional settings,X999,284
+2021-09-14,Far West,X860,172
+2021-09-14,Hunter New England,X800,362
+2021-09-14,Illawarra Shoalhaven,X730,450
+2021-09-14,Mid North Coast,X820,4
+2021-09-14,Murrumbidgee,X840,1
+2021-09-14,Nepean Blue Mountains,X720,2431
+2021-09-14,Northern NSW,X710,0
+2021-09-14,Northern Sydney,X760,796
+2021-09-14,South Eastern Sydney,X740,2779
+2021-09-14,South Western Sydney,X750,12226
+2021-09-14,Southern NSW,X620,32
+2021-09-14,Sydney,X610,4236
+2021-09-14,Western NSW,X560,996
+2021-09-14,Western Sydney,X870,12478
+2021-09-15,Central Coast,X770,305
+2021-09-15,Correctional settings,X999,306
+2021-09-15,Far West,X860,175
+2021-09-15,Hunter New England,X800,373
+2021-09-15,Illawarra Shoalhaven,X730,488
+2021-09-15,Mid North Coast,X820,4
+2021-09-15,Murrumbidgee,X840,1
+2021-09-15,Nepean Blue Mountains,X720,2500
+2021-09-15,Northern NSW,X710,1
+2021-09-15,Northern Sydney,X760,834
+2021-09-15,South Eastern Sydney,X740,2936
+2021-09-15,South Western Sydney,X750,12671
+2021-09-15,Southern NSW,X620,34
+2021-09-15,Sydney,X610,4376
+2021-09-15,Western NSW,X560,1022
+2021-09-15,Western Sydney,X870,12831
+2021-09-16,Central Coast,X770,330
+2021-09-16,Correctional settings,X999,317
+2021-09-16,Far West,X860,180
+2021-09-16,Hunter New England,X800,398
+2021-09-16,Illawarra Shoalhaven,X730,535
+2021-09-16,Mid North Coast,X820,4
+2021-09-16,Murrumbidgee,X840,2
+2021-09-16,Nepean Blue Mountains,X720,2559
+2021-09-16,Northern NSW,X710,1
+2021-09-16,Northern Sydney,X760,871
+2021-09-16,South Eastern Sydney,X740,3071
+2021-09-16,South Western Sydney,X750,13100
+2021-09-16,Southern NSW,X620,51
+2021-09-16,Sydney,X610,4513
+2021-09-16,Western NSW,X560,1042
+2021-09-16,Western Sydney,X870,13142
+2021-09-17,Central Coast,X770,358
+2021-09-17,Correctional settings,X999,324
+2021-09-17,Far West,X860,186
+2021-09-17,Hunter New England,X800,428
+2021-09-17,Illawarra Shoalhaven,X730,600
+2021-09-17,Mid North Coast,X820,4
+2021-09-17,Murrumbidgee,X840,7
+2021-09-17,Nepean Blue Mountains,X720,2606
+2021-09-17,Northern NSW,X710,2
+2021-09-17,Northern Sydney,X760,906
+2021-09-17,South Eastern Sydney,X740,3235
+2021-09-17,South Western Sydney,X750,13487
+2021-09-17,Southern NSW,X620,60
+2021-09-17,Sydney,X610,4671
+2021-09-17,Western NSW,X560,1058
+2021-09-17,Western Sydney,X870,13472
+2021-09-18,Central Coast,X770,379
+2021-09-18,Correctional settings,X999,333
+2021-09-18,Far West,X860,194
+2021-09-18,Hunter New England,X800,447
+2021-09-18,Illawarra Shoalhaven,X730,665
+2021-09-18,Mid North Coast,X820,8
+2021-09-18,Murrumbidgee,X840,8
+2021-09-18,Nepean Blue Mountains,X720,2646
+2021-09-18,Northern NSW,X710,2
+2021-09-18,Northern Sydney,X760,930
+2021-09-18,South Eastern Sydney,X740,3387
+2021-09-18,South Western Sydney,X750,13801
+2021-09-18,Southern NSW,X620,65
+2021-09-18,Sydney,X610,4784
+2021-09-18,Western NSW,X560,1066
+2021-09-18,Western Sydney,X870,13765
+2021-09-19,Central Coast,X770,401
+2021-09-19,Correctional settings,X999,343
+2021-09-19,Far West,X860,197
+2021-09-19,Hunter New England,X800,468
+2021-09-19,Illawarra Shoalhaven,X730,723
+2021-09-19,Mid North Coast,X820,8
+2021-09-19,Murrumbidgee,X840,10
+2021-09-19,Nepean Blue Mountains,X720,2696
+2021-09-19,Northern NSW,X710,2
+2021-09-19,Northern Sydney,X760,974
+2021-09-19,South Eastern Sydney,X740,3492
+2021-09-19,South Western Sydney,X750,14074
+2021-09-19,Southern NSW,X620,72
+2021-09-19,Sydney,X610,4874
+2021-09-19,Western NSW,X560,1076
+2021-09-19,Western Sydney,X870,13980
+2021-09-20,Central Coast,X770,421
+2021-09-20,Correctional settings,X999,354
+2021-09-20,Far West,X860,203
+2021-09-20,Hunter New England,X800,504
+2021-09-20,Illawarra Shoalhaven,X730,769
+2021-09-20,Mid North Coast,X820,8
+2021-09-20,Murrumbidgee,X840,16
+2021-09-20,Nepean Blue Mountains,X720,2751
+2021-09-20,Northern NSW,X710,2
+2021-09-20,Northern Sydney,X760,1025
+2021-09-20,South Eastern Sydney,X740,3600
+2021-09-20,South Western Sydney,X750,14428
+2021-09-20,Southern NSW,X620,80
+2021-09-20,Sydney,X610,4971
+2021-09-20,Western NSW,X560,1084
+2021-09-20,Western Sydney,X870,14218
+2021-09-21,Central Coast,X770,457
+2021-09-21,Correctional settings,X999,361
+2021-09-21,Far West,X860,209
+2021-09-21,Hunter New England,X800,536
+2021-09-21,Illawarra Shoalhaven,X730,835
+2021-09-21,Mid North Coast,X820,9
+2021-09-21,Murrumbidgee,X840,16
+2021-09-21,Nepean Blue Mountains,X720,2809
+2021-09-21,Northern NSW,X710,3
+2021-09-21,Northern Sydney,X760,1063
+2021-09-21,South Eastern Sydney,X740,3732
+2021-09-21,South Western Sydney,X750,14799
+2021-09-21,Southern NSW,X620,85
+2021-09-21,Sydney,X610,5110
+2021-09-21,Western NSW,X560,1091
+2021-09-21,Western Sydney,X870,14442
+2021-09-22,Central Coast,X770,496
+2021-09-22,Correctional settings,X999,368
+2021-09-22,Far West,X860,215
+2021-09-22,Hunter New England,X800,578
+2021-09-22,Illawarra Shoalhaven,X730,900
+2021-09-22,Mid North Coast,X820,11
+2021-09-22,Murrumbidgee,X840,17
+2021-09-22,Nepean Blue Mountains,X720,2870
+2021-09-22,Northern NSW,X710,3
+2021-09-22,Northern Sydney,X760,1109
+2021-09-22,South Eastern Sydney,X740,3865
+2021-09-22,South Western Sydney,X750,15084
+2021-09-22,Southern NSW,X620,87
+2021-09-22,Sydney,X610,5229
+2021-09-22,Western NSW,X560,1107
+2021-09-22,Western Sydney,X870,14668
+2021-09-23,Central Coast,X770,529
+2021-09-23,Correctional settings,X999,375
+2021-09-23,Far West,X860,228
+2021-09-23,Hunter New England,X800,617
+2021-09-23,Illawarra Shoalhaven,X730,1006
+2021-09-23,Mid North Coast,X820,12
+2021-09-23,Murrumbidgee,X840,22
+2021-09-23,Nepean Blue Mountains,X720,2935
+2021-09-23,Northern NSW,X710,3
+2021-09-23,Northern Sydney,X760,1143
+2021-09-23,South Eastern Sydney,X740,3971
+2021-09-23,South Western Sydney,X750,15314
+2021-09-23,Southern NSW,X620,89
+2021-09-23,Sydney,X610,5340
+2021-09-23,Western NSW,X560,1139
+2021-09-23,Western Sydney,X870,14875
+2021-09-24,Central Coast,X770,559
+2021-09-24,Correctional settings,X999,381
+2021-09-24,Far West,X860,232
+2021-09-24,Hunter New England,X800,641
+2021-09-24,Illawarra Shoalhaven,X730,1076
+2021-09-24,Mid North Coast,X820,13
+2021-09-24,Murrumbidgee,X840,24
+2021-09-24,Nepean Blue Mountains,X720,3015
+2021-09-24,Northern NSW,X710,3
+2021-09-24,Northern Sydney,X760,1198
+2021-09-24,South Eastern Sydney,X740,4055
+2021-09-24,South Western Sydney,X750,15646
+2021-09-24,Southern NSW,X620,97
+2021-09-24,Sydney,X610,5448
+2021-09-24,Western NSW,X560,1155
+2021-09-24,Western Sydney,X870,15090
+2021-09-25,Central Coast,X770,590
+2021-09-25,Correctional settings,X999,382
+2021-09-25,Far West,X860,239
+2021-09-25,Hunter New England,X800,693
+2021-09-25,Illawarra Shoalhaven,X730,1138
+2021-09-25,Mid North Coast,X820,15
+2021-09-25,Murrumbidgee,X840,24
+2021-09-25,Nepean Blue Mountains,X720,3077
+2021-09-25,Northern NSW,X710,3
+2021-09-25,Northern Sydney,X760,1230
+2021-09-25,South Eastern Sydney,X740,4155
+2021-09-25,South Western Sydney,X750,15870
+2021-09-25,Southern NSW,X620,106
+2021-09-25,Sydney,X610,5546
+2021-09-25,Western NSW,X560,1181
+2021-09-25,Western Sydney,X870,15299
+2021-09-26,Central Coast,X770,618
+2021-09-26,Correctional settings,X999,387
+2021-09-26,Far West,X860,245
+2021-09-26,Hunter New England,X800,747
+2021-09-26,Illawarra Shoalhaven,X730,1193
+2021-09-26,Mid North Coast,X820,16
+2021-09-26,Murrumbidgee,X840,24
+2021-09-26,Nepean Blue Mountains,X720,3119
+2021-09-26,Northern NSW,X710,3
+2021-09-26,Northern Sydney,X760,1247
+2021-09-26,South Eastern Sydney,X740,4238
+2021-09-26,South Western Sydney,X750,16121
+2021-09-26,Southern NSW,X620,116
+2021-09-26,Sydney,X610,5617
+2021-09-26,Western NSW,X560,1205
+2021-09-26,Western Sydney,X870,15455
+2021-09-27,Central Coast,X770,646
+2021-09-27,Correctional settings,X999,391
+2021-09-27,Far West,X860,247
+2021-09-27,Hunter New England,X800,789
+2021-09-27,Illawarra Shoalhaven,X730,1276
+2021-09-27,Mid North Coast,X820,17
+2021-09-27,Murrumbidgee,X840,24
+2021-09-27,Nepean Blue Mountains,X720,3174
+2021-09-27,Northern NSW,X710,3
+2021-09-27,Northern Sydney,X760,1279
+2021-09-27,South Eastern Sydney,X740,4324
+2021-09-27,South Western Sydney,X750,16347
+2021-09-27,Southern NSW,X620,129
+2021-09-27,Sydney,X610,5693
+2021-09-27,Western NSW,X560,1227
+2021-09-27,Western Sydney,X870,15619
+2021-09-28,Central Coast,X770,669
+2021-09-28,Correctional settings,X999,396
+2021-09-28,Far West,X860,253
+2021-09-28,Hunter New England,X800,849
+2021-09-28,Illawarra Shoalhaven,X730,1374
+2021-09-28,Mid North Coast,X820,17
+2021-09-28,Murrumbidgee,X840,25
+2021-09-28,Nepean Blue Mountains,X720,3210
+2021-09-28,Northern NSW,X710,5
+2021-09-28,Northern Sydney,X760,1319
+2021-09-28,South Eastern Sydney,X740,4405
+2021-09-28,South Western Sydney,X750,16583
+2021-09-28,Southern NSW,X620,156
+2021-09-28,Sydney,X610,5766
+2021-09-28,Western NSW,X560,1256
+2021-09-28,Western Sydney,X870,15802
+2021-09-29,Central Coast,X770,707
+2021-09-29,Correctional settings,X999,399
+2021-09-29,Far West,X860,260
+2021-09-29,Hunter New England,X800,939
+2021-09-29,Illawarra Shoalhaven,X730,1443
+2021-09-29,Mid North Coast,X820,20
+2021-09-29,Murrumbidgee,X840,25
+2021-09-29,Nepean Blue Mountains,X720,3254
+2021-09-29,Northern NSW,X710,9
+2021-09-29,Northern Sydney,X760,1361
+2021-09-29,South Eastern Sydney,X740,4498
+2021-09-29,South Western Sydney,X750,16818
+2021-09-29,Southern NSW,X620,174
+2021-09-29,Sydney,X610,5836
+2021-09-29,Western NSW,X560,1315
+2021-09-29,Western Sydney,X870,15991
+2021-09-30,Central Coast,X770,747
+2021-09-30,Correctional settings,X999,407
+2021-09-30,Far West,X860,263
+2021-09-30,Hunter New England,X800,1011
+2021-09-30,Illawarra Shoalhaven,X730,1532
+2021-09-30,Mid North Coast,X820,24
+2021-09-30,Murrumbidgee,X840,32
+2021-09-30,Nepean Blue Mountains,X720,3302
+2021-09-30,Northern NSW,X710,14
+2021-09-30,Northern Sydney,X760,1398
+2021-09-30,South Eastern Sydney,X740,4577
+2021-09-30,South Western Sydney,X750,17007
+2021-09-30,Southern NSW,X620,196
+2021-09-30,Sydney,X610,5884
+2021-09-30,Western NSW,X560,1336
+2021-09-30,Western Sydney,X870,16160
+2021-10-01,Central Coast,X770,772
+2021-10-01,Correctional settings,X999,416
+2021-10-01,Far West,X860,269
+2021-10-01,Hunter New England,X800,1071
+2021-10-01,Illawarra Shoalhaven,X730,1616
+2021-10-01,Mid North Coast,X820,25
+2021-10-01,Murrumbidgee,X840,34
+2021-10-01,Nepean Blue Mountains,X720,3343
+2021-10-01,Northern NSW,X710,21
+2021-10-01,Northern Sydney,X760,1424
+2021-10-01,South Eastern Sydney,X740,4644
+2021-10-01,South Western Sydney,X750,17218
+2021-10-01,Southern NSW,X620,226
+2021-10-01,Sydney,X610,5957
+2021-10-01,Western NSW,X560,1364
+2021-10-01,Western Sydney,X870,16318
+2021-10-02,Central Coast,X770,819
+2021-10-02,Correctional settings,X999,418
+2021-10-02,Far West,X860,272
+2021-10-02,Hunter New England,X800,1157
+2021-10-02,Illawarra Shoalhaven,X730,1673
+2021-10-02,Mid North Coast,X820,28
+2021-10-02,Murrumbidgee,X840,34
+2021-10-02,Nepean Blue Mountains,X720,3364
+2021-10-02,Northern NSW,X710,28
+2021-10-02,Northern Sydney,X760,1449
+2021-10-02,South Eastern Sydney,X740,4712
+2021-10-02,South Western Sydney,X750,17376
+2021-10-02,Southern NSW,X620,251
+2021-10-02,Sydney,X610,6006
+2021-10-02,Western NSW,X560,1394
+2021-10-02,Western Sydney,X870,16419
+2021-10-03,Central Coast,X770,852
+2021-10-03,Correctional settings,X999,422
+2021-10-03,Far West,X860,273
+2021-10-03,Hunter New England,X800,1218
+2021-10-03,Illawarra Shoalhaven,X730,1745
+2021-10-03,Mid North Coast,X820,29
+2021-10-03,Murrumbidgee,X840,36
+2021-10-03,Nepean Blue Mountains,X720,3385
+2021-10-03,Northern NSW,X710,35
+2021-10-03,Northern Sydney,X760,1468
+2021-10-03,South Eastern Sydney,X740,4766
+2021-10-03,South Western Sydney,X750,17531
+2021-10-03,Southern NSW,X620,272
+2021-10-03,Sydney,X610,6052
+2021-10-03,Western NSW,X560,1411
+2021-10-03,Western Sydney,X870,16533
+2021-10-04,Central Coast,X770,882
+2021-10-04,Correctional settings,X999,425
+2021-10-04,Far West,X860,273
+2021-10-04,Hunter New England,X800,1297
+2021-10-04,Illawarra Shoalhaven,X730,1778
+2021-10-04,Mid North Coast,X820,32
+2021-10-04,Murrumbidgee,X840,36
+2021-10-04,Nepean Blue Mountains,X720,3417
+2021-10-04,Northern NSW,X710,37
+2021-10-04,Northern Sydney,X760,1489
+2021-10-04,South Eastern Sydney,X740,4816
+2021-10-04,South Western Sydney,X750,17702
+2021-10-04,Southern NSW,X620,290
+2021-10-04,Sydney,X610,6093
+2021-10-04,Western NSW,X560,1419
+2021-10-04,Western Sydney,X870,16633
+2021-10-05,Central Coast,X770,906
+2021-10-05,Correctional settings,X999,427
+2021-10-05,Far West,X860,276
+2021-10-05,Hunter New England,X800,1359
+2021-10-05,Illawarra Shoalhaven,X730,1838
+2021-10-05,Mid North Coast,X820,34
+2021-10-05,Murrumbidgee,X840,39
+2021-10-05,Nepean Blue Mountains,X720,3441
+2021-10-05,Northern NSW,X710,40
+2021-10-05,Northern Sydney,X760,1505
+2021-10-05,South Eastern Sydney,X740,4874
+2021-10-05,South Western Sydney,X750,17833
+2021-10-05,Southern NSW,X620,303
+2021-10-05,Sydney,X610,6131
+2021-10-05,Western NSW,X560,1427
+2021-10-05,Western Sydney,X870,16726
+2021-10-06,Central Coast,X770,928
+2021-10-06,Correctional settings,X999,429
+2021-10-06,Far West,X860,279
+2021-10-06,Hunter New England,X800,1453
+2021-10-06,Illawarra Shoalhaven,X730,1907
+2021-10-06,Mid North Coast,X820,36
+2021-10-06,Murrumbidgee,X840,42
+2021-10-06,Nepean Blue Mountains,X720,3464
+2021-10-06,Northern NSW,X710,51
+2021-10-06,Northern Sydney,X760,1529
+2021-10-06,South Eastern Sydney,X740,4930
+2021-10-06,South Western Sydney,X750,17963
+2021-10-06,Southern NSW,X620,318
+2021-10-06,Sydney,X610,6187
+2021-10-06,Western NSW,X560,1438
+2021-10-06,Western Sydney,X870,16837
+2021-10-07,Central Coast,X770,958
+2021-10-07,Correctional settings,X999,429
+2021-10-07,Far West,X860,281
+2021-10-07,Hunter New England,X800,1535
+2021-10-07,Illawarra Shoalhaven,X730,1941
+2021-10-07,Mid North Coast,X820,38
+2021-10-07,Murrumbidgee,X840,43
+2021-10-07,Nepean Blue Mountains,X720,3495
+2021-10-07,Northern NSW,X710,57
+2021-10-07,Northern Sydney,X760,1545
+2021-10-07,South Eastern Sydney,X740,4973
+2021-10-07,South Western Sydney,X750,18080
+2021-10-07,Southern NSW,X620,337
+2021-10-07,Sydney,X610,6238
+2021-10-07,Western NSW,X560,1449
+2021-10-07,Western Sydney,X870,16941
+2021-10-08,Central Coast,X770,990
+2021-10-08,Correctional settings,X999,431
+2021-10-08,Far West,X860,284
+2021-10-08,Hunter New England,X800,1609
+2021-10-08,Illawarra Shoalhaven,X730,1991
+2021-10-08,Mid North Coast,X820,38
+2021-10-08,Murrumbidgee,X840,43
+2021-10-08,Nepean Blue Mountains,X720,3533
+2021-10-08,Northern NSW,X710,61
+2021-10-08,Northern Sydney,X760,1559
+2021-10-08,South Eastern Sydney,X740,5009
+2021-10-08,South Western Sydney,X750,18203
+2021-10-08,Southern NSW,X620,351
+2021-10-08,Sydney,X610,6278
+2021-10-08,Western NSW,X560,1471
+2021-10-08,Western Sydney,X870,17005
+2021-10-09,Central Coast,X770,1018
+2021-10-09,Correctional settings,X999,435
+2021-10-09,Far West,X860,285
+2021-10-09,Hunter New England,X800,1688
+2021-10-09,Illawarra Shoalhaven,X730,2039
+2021-10-09,Mid North Coast,X820,40
+2021-10-09,Murrumbidgee,X840,44
+2021-10-09,Nepean Blue Mountains,X720,3562
+2021-10-09,Northern NSW,X710,66
+2021-10-09,Northern Sydney,X760,1573
+2021-10-09,South Eastern Sydney,X740,5049
+2021-10-09,South Western Sydney,X750,18311
+2021-10-09,Southern NSW,X620,362
+2021-10-09,Sydney,X610,6311
+2021-10-09,Western NSW,X560,1486
+2021-10-09,Western Sydney,X870,17088
+2021-10-10,Central Coast,X770,1034
+2021-10-10,Correctional settings,X999,437
+2021-10-10,Far West,X860,288
+2021-10-10,Hunter New England,X800,1747
+2021-10-10,Illawarra Shoalhaven,X730,2081
+2021-10-10,Mid North Coast,X820,42
+2021-10-10,Murrumbidgee,X840,46
+2021-10-10,Nepean Blue Mountains,X720,3577
+2021-10-10,Northern NSW,X710,71
+2021-10-10,Northern Sydney,X760,1587
+2021-10-10,South Eastern Sydney,X740,5091
+2021-10-10,South Western Sydney,X750,18412
+2021-10-10,Southern NSW,X620,366
+2021-10-10,Sydney,X610,6345
+2021-10-10,Western NSW,X560,1499
+2021-10-10,Western Sydney,X870,17176
+2021-10-11,Central Coast,X770,1057
+2021-10-11,Correctional settings,X999,439
+2021-10-11,Far West,X860,289
+2021-10-11,Hunter New England,X800,1792
+2021-10-11,Illawarra Shoalhaven,X730,2116
+2021-10-11,Mid North Coast,X820,44
+2021-10-11,Murrumbidgee,X840,48
+2021-10-11,Nepean Blue Mountains,X720,3590
+2021-10-11,Northern NSW,X710,74
+2021-10-11,Northern Sydney,X760,1594
+2021-10-11,South Eastern Sydney,X740,5116
+2021-10-11,South Western Sydney,X750,18512
+2021-10-11,Southern NSW,X620,376
+2021-10-11,Sydney,X610,6372
+2021-10-11,Western NSW,X560,1510
+2021-10-11,Western Sydney,X870,17240
+2021-10-12,Central Coast,X770,1074
+2021-10-12,Correctional settings,X999,439
+2021-10-12,Far West,X860,289
+2021-10-12,Hunter New England,X800,1871
+2021-10-12,Illawarra Shoalhaven,X730,2137
+2021-10-12,Mid North Coast,X820,47
+2021-10-12,Murrumbidgee,X840,48
+2021-10-12,Nepean Blue Mountains,X720,3609
+2021-10-12,Northern NSW,X710,87
+2021-10-12,Northern Sydney,X760,1608
+2021-10-12,South Eastern Sydney,X740,5149
+2021-10-12,South Western Sydney,X750,18616
+2021-10-12,Southern NSW,X620,378
+2021-10-12,Sydney,X610,6407
+2021-10-12,Western NSW,X560,1526
+2021-10-12,Western Sydney,X870,17318
+2021-10-13,Central Coast,X770,1091
+2021-10-13,Correctional settings,X999,445
+2021-10-13,Far West,X860,290
+2021-10-13,Hunter New England,X800,1960
+2021-10-13,Illawarra Shoalhaven,X730,2159
+2021-10-13,Mid North Coast,X820,48
+2021-10-13,Murrumbidgee,X840,54
+2021-10-13,Nepean Blue Mountains,X720,3638
+2021-10-13,Northern NSW,X710,91
+2021-10-13,Northern Sydney,X760,1614
+2021-10-13,South Eastern Sydney,X740,5183
+2021-10-13,South Western Sydney,X750,18679
+2021-10-13,Southern NSW,X620,379
+2021-10-13,Sydney,X610,6459
+2021-10-13,Western NSW,X560,1532
+2021-10-13,Western Sydney,X870,17380
+2021-10-14,Central Coast,X770,1104
+2021-10-14,Correctional settings,X999,447
+2021-10-14,Far West,X860,293
+2021-10-14,Hunter New England,X800,2048
+2021-10-14,Illawarra Shoalhaven,X730,2195
+2021-10-14,Mid North Coast,X820,48
+2021-10-14,Murrumbidgee,X840,59
+2021-10-14,Nepean Blue Mountains,X720,3651
+2021-10-14,Northern NSW,X710,93
+2021-10-14,Northern Sydney,X760,1617
+2021-10-14,South Eastern Sydney,X740,5217
+2021-10-14,South Western Sydney,X750,18778
+2021-10-14,Southern NSW,X620,382
+2021-10-14,Sydney,X610,6492
+2021-10-14,Western NSW,X560,1547
+2021-10-14,Western Sydney,X870,17443
+2021-10-15,Central Coast,X770,1114
+2021-10-15,Correctional settings,X999,447
+2021-10-15,Far West,X860,297
+2021-10-15,Hunter New England,X800,2105
+2021-10-15,Illawarra Shoalhaven,X730,2219
+2021-10-15,Mid North Coast,X820,53
+2021-10-15,Murrumbidgee,X840,80
+2021-10-15,Nepean Blue Mountains,X720,3657
+2021-10-15,Northern NSW,X710,95
+2021-10-15,Northern Sydney,X760,1622
+2021-10-15,South Eastern Sydney,X740,5235
+2021-10-15,South Western Sydney,X750,18850
+2021-10-15,Southern NSW,X620,389
+2021-10-15,Sydney,X610,6521
+2021-10-15,Western NSW,X560,1567
+2021-10-15,Western Sydney,X870,17493
+2021-10-16,Central Coast,X770,1132
+2021-10-16,Correctional settings,X999,448
+2021-10-16,Far West,X860,298
+2021-10-16,Hunter New England,X800,2176
+2021-10-16,Illawarra Shoalhaven,X730,2236
+2021-10-16,Mid North Coast,X820,54
+2021-10-16,Murrumbidgee,X840,90
+2021-10-16,Nepean Blue Mountains,X720,3667
+2021-10-16,Northern NSW,X710,95
+2021-10-16,Northern Sydney,X760,1624
+2021-10-16,South Eastern Sydney,X740,5249
+2021-10-16,South Western Sydney,X750,18940
+2021-10-16,Southern NSW,X620,393
+2021-10-16,Sydney,X610,6544
+2021-10-16,Western NSW,X560,1569
+2021-10-16,Western Sydney,X870,17527
+2021-10-17,Central Coast,X770,1141
+2021-10-17,Correctional settings,X999,450
+2021-10-17,Far West,X860,298
+2021-10-17,Hunter New England,X800,2236
+2021-10-17,Illawarra Shoalhaven,X730,2252
+2021-10-17,Mid North Coast,X820,54
+2021-10-17,Murrumbidgee,X840,106
+2021-10-17,Nepean Blue Mountains,X720,3673
+2021-10-17,Northern NSW,X710,97
+2021-10-17,Northern Sydney,X760,1627
+2021-10-17,South Eastern Sydney,X740,5269
+2021-10-17,South Western Sydney,X750,19015
+2021-10-17,Southern NSW,X620,398
+2021-10-17,Sydney,X610,6565
+2021-10-17,Western NSW,X560,1573
+2021-10-17,Western Sydney,X870,17571
+2021-10-18,Central Coast,X770,1146
+2021-10-18,Correctional settings,X999,451
+2021-10-18,Far West,X860,299
+2021-10-18,Hunter New England,X800,2256
+2021-10-18,Illawarra Shoalhaven,X730,2260
+2021-10-18,Mid North Coast,X820,55
+2021-10-18,Murrumbidgee,X840,113
+2021-10-18,Nepean Blue Mountains,X720,3695
+2021-10-18,Northern NSW,X710,98
+2021-10-18,Northern Sydney,X760,1629
+2021-10-18,South Eastern Sydney,X740,5291
+2021-10-18,South Western Sydney,X750,19073
+2021-10-18,Southern NSW,X620,400
+2021-10-18,Sydney,X610,6583
+2021-10-18,Western NSW,X560,1574
+2021-10-18,Western Sydney,X870,17606
+2021-10-18,Central Coast,X770,1157
+2021-10-19,Correctional settings,X999,451
+2021-10-19,Far West,X860,299
+2021-10-19,Hunter New England,X800,2313
+2021-10-19,Illawarra Shoalhaven,X730,2269
+2021-10-19,Mid North Coast,X820,59
+2021-10-19,Murrumbidgee,X840,125
+2021-10-19,Nepean Blue Mountains,X720,3708
+2021-10-19,Northern NSW,X710,99
+2021-10-19,Northern Sydney,X760,1636
+2021-10-19,South Eastern Sydney,X740,5302
+2021-10-19,South Western Sydney,X750,19138
+2021-10-19,Southern NSW,X620,403
+2021-10-19,Sydney,X610,6604
+2021-10-19,Western NSW,X560,1578
+2021-10-19,Western Sydney,X870,17646
