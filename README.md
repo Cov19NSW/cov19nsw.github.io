@@ -28,6 +28,10 @@ To see the working demo, click on the links
 
     ![Replace values](https://i.imgur.com/YSgcTID.png)
     
+- Bar Chart Race
+
+    ![Bar Chart Race](https://i.imgur.com/HBKXCU1.png)
+    
 - Gapminder
 
     ![Replace values](https://i.imgur.com/HsbiDM5.png)
