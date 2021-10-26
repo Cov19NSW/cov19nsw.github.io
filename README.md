@@ -32,6 +32,10 @@ To see the working demo, click on the links
 
     ![Bar Chart Race](https://i.imgur.com/HBKXCU1.png)
     
+- Pie Chart
+
+    ![Pie Chart](https://i.imgur.com/XuuXYpC.png)
+    
 - Gapminder
 
     ![Replace values](https://i.imgur.com/HsbiDM5.png)
