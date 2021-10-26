@@ -21,7 +21,7 @@ Scrubber(dates, {format: date => date.toLocaleString("en", {month: "long", day: 
   main.variable(observer("date")).define("date", ["Generators", "viewof date"], (G, _) => G.input(_));
   main.variable(observer("viewof radius_type")).define("viewof radius_type", ["radio"], function(radio){return(
 radio({
-  title: 'Scale countries by', 
+  title: 'Dose Selection', 
   options: [
     {label: "Dose1 Vaccination Rates", value: 'dose1' },
     {label: "Dose2 Vaccination Rates", value: 'dose2'},
