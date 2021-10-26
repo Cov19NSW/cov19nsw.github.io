@@ -6,7 +6,7 @@ Deliverable of UTS 32933 Research Project Autumn 2021
 supervisor: [Dr. Wei Liu](https://www.uts.edu.au/staff/wei.liu)
 
 ## What is it
-Data Visualization for Covid-19 cases in NSW
+A dashboard for Covid-19 cases in NSW. It can vividly show Covid-19 data changes in NSW. 
 
 
 ## Demo
