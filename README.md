@@ -14,5 +14,40 @@ To see the working demo, click on the links
 - <a href="https://cov19nsw.github.io/" target="_blank">Web Demo</a>
 (https://cov19nsw.github.io/)
 
-## Dashboard
+## Dashboard Glance
 
+- The number of total cases in NSW
+
+    ![Replace values](https://i.imgur.com/UtlvU49.png)
+    
+- Page 1
+
+    ![Replace values](https://i.imgur.com/Qgg5DQ3.png)
+    
+- Page 2
+
+    ![Replace values](https://i.imgur.com/YSgcTID.png)
+    
+- Gapminder
+
+    ![Replace values](https://i.imgur.com/HsbiDM5.png)
+    
+- Streamgraph
+
+    ![Replace values](https://i.imgur.com/oaoY2w9.png)
+    
+- NSW Covid cases growth per LHD
+
+    ![Replace values](https://i.imgur.com/SHYtqUq.png)
+    
+
+
+
+
+
+
+
+
+## Contact 
+
+If you have any queries, feel free to create an issue or contact me via the email address in my profile.
