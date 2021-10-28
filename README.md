@@ -32,11 +32,13 @@ To see the working demo, click on the links
     ![Replace values](https://i.imgur.com/YSgcTID.png)
     
 ### Bar Chart Race
--
-
+- It shows daily changes in the total number of cases in each LHD area.
+- You can change the animation speed by dragging the slider.
     ![Bar Chart Race](https://i.imgur.com/HBKXCU1.png)
     
-- Pie Chart
+### Pie Chart
+- It shows every month's Covid cases count in different regions.
+- You can select different month in the drop-down menu.
 
     ![Pie Chart](https://i.imgur.com/XuuXYpC.png)
     
