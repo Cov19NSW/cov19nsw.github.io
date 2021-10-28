@@ -34,6 +34,7 @@ To see the working demo, click on the links
 ### Bar Chart Race
 - It shows daily changes in the total number of cases in each LHD area.
 - You can change the animation speed by dragging the slider.
+
     ![Bar Chart Race](https://i.imgur.com/HBKXCU1.png)
     
 ### Pie Chart
