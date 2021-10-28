@@ -16,7 +16,10 @@ To see the working demo, click on the links
 
 ## Dashboard Glance
 
+### The number of total cases in NSW
+
 - The number of total cases in NSW
+
 
     ![Replace values](https://i.imgur.com/UtlvU49.png)
     
