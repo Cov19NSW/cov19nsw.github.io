@@ -48,7 +48,9 @@ To see the working demo, click on the links
 
     ![Replace values](https://i.imgur.com/SHYtqUq.png)
     
+- NSW covid cases bubble map 
 
+    ![Replace values](https://imgur.com/a/7nX6ICw)
 
 
 
