@@ -16,13 +16,13 @@ To see the working demo, click on the links
 
 ## Dashboard Glance
 
-### The number of total cases in NSW
+### Total cases in NSW
 
 - The number of total cases in NSW
 
-
     ![Replace values](https://i.imgur.com/UtlvU49.png)
     
+### Total page: 2
 - Page 1
 
     ![Replace values](https://i.imgur.com/Qgg5DQ3.png)
@@ -31,7 +31,8 @@ To see the working demo, click on the links
 
     ![Replace values](https://i.imgur.com/YSgcTID.png)
     
-- Bar Chart Race
+### Bar Chart Race
+-
 
     ![Bar Chart Race](https://i.imgur.com/HBKXCU1.png)
     
@@ -39,15 +40,21 @@ To see the working demo, click on the links
 
     ![Pie Chart](https://i.imgur.com/XuuXYpC.png)
     
-- Gapminder
+### Gapminder
+- It is shows per region cases as x axis(x), Vaccination rates as y axis(y) and population (area) of 120 LGA areas over the last 3 months in NSW. 
+- The circle is coloured by local health district region. 
 
     ![Replace values](https://i.imgur.com/HsbiDM5.png)
     
-- Streamgraph
+### Streamgraph
+- It shows Date as x Axis, the case number of the different NSW regions as y Axis. 
+- A different colour is marked in LHD Area.
 
     ![Replace values](https://i.imgur.com/oaoY2w9.png)
     
-- NSW Covid cases growth per LHD
+### NSW Covid cases growth per LHD
+- It shows Date as x Axis, the case number of the different LHD regions in NSW as y Axis. 
+- A different colour is marked in LHD Areas.
 
     ![Replace values](https://i.imgur.com/SHYtqUq.png)
     
