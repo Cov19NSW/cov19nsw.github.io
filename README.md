@@ -61,7 +61,12 @@ To see the working demo, click on the links
 
     ![Replace values](https://i.imgur.com/SHYtqUq.png)
     
+### NSW Covid cases Bubble Map
+- Draw the map of each LGA in NSW
+- Present one bubble for each LGA's daily covid cases, bubbles have different sizes and colors base on the covid case number
+- Slider to locate on one specific day or display the bubbles development from start day to end day
 
+    ![Replace values](https://i.imgur.com/cE1smdV.png)
 
 
 
