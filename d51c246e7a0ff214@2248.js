@@ -1,5 +1,5 @@
 // https://observablehq.com/@georgialiu718/nsw-covid-map@2248
-import define1 from "./ObservableScrubber.js";
+import define1 from "./Observable scrubber.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();

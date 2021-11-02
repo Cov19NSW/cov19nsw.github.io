@@ -1,7 +1,7 @@
 // https://observablehq.com/@wwj/nsw-dose-coverage-population-and-cases-gapminder@3345
-import define1 from "./ObservableColour.js";
-import define2 from "./ObservableScrubber.js";
-import define3 from "./ObservableInput.js";
+import define1 from "./Observable colour.js";
+import define2 from "./Observable scrubber.js";
+import define3 from "./Observable input.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();

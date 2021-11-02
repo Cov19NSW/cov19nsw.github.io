@@ -1,4 +1,4 @@
-import define1 from "./ObservableInput.js";
+import define1 from "./Observable input.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();

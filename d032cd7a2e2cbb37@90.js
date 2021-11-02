@@ -1,5 +1,5 @@
 // https://observablehq.com/@wwj/covid-lhd-cases@90
-import define1 from "./ObservableColour.js";
+import define1 from "./Observable colour.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();

@@ -1,1 +1,1 @@
-export {default} from "./CombineChart.js";
+export {default} from "./Combine chart.js";
