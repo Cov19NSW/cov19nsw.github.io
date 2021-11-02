@@ -1,8 +1,8 @@
-import define1 from "./e93997d5089d7165@2303.js";
+import define1 from "./ObservableInput.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
-  const fileAttachments = new Map([["data-v8.csv",new URL("./files/c7efc3d76ba92216e800e6de51dc4857ec88fa449832a397ff4a635c7c4b42a68098f143eb8beebf63157bf1f0e32c50b597b176ce91dbfa783dc29947c6814e",import.meta.url)]]);
+  const fileAttachments = new Map([["data-v8.csv",new URL("./files/BarChartRaceData",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
 md`# Bar chart Race`

@@ -1,8 +1,8 @@
-import define1 from "./e93997d5089d7165@2303.js";
+import define1 from "./ObservableInput.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
-  const fileAttachments = new Map([["pie_chart_v1.csv",new URL("./files/b68bf4976bb1a2cad269f29145ecda6acb1bac86854b5dc9f9d6960e6af178c3d6d4011878cab7cf6817b4cbdc8e7a2a4ac4888bd9f52fac7208405211771770",import.meta.url)]]);
+  const fileAttachments = new Map([["pie_chart_v1.csv",new URL("./files/PieChartData",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
 md`# Pie Chart Month`

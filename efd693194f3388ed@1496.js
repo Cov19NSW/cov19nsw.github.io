@@ -1,5 +1,5 @@
 // https://observablehq.com/@wwj/nsw-region-covid-19-case-streamgraph@1496
-import define1 from "./a33468b95d0b15b0@806.js";
+import define1 from "./ObservableColour.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();

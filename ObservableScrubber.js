@@ -1,4 +1,5 @@
 // https://observablehq.com/@mbostock/scrubber@254
+// This is a Observable Library, not our source code
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
