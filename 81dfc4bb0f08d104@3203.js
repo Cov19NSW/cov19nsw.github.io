@@ -2,10 +2,13 @@ import define1 from "./e93997d5089d7165@2303.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
-  const fileAttachments = new Map([["data_v6.csv",new URL("./files/d5e914b896c528589d3587ef6c6b53f9912a93c4d091e64abf0ff7e35d2e54c21d3995da0b1179e0bf7d8d121a90ca0658a65c9838ab141ebf1814c5f7b3b37e",import.meta.url)]]);
+  const fileAttachments = new Map([["data-v8.csv",new URL("./files/c7efc3d76ba92216e800e6de51dc4857ec88fa449832a397ff4a635c7c4b42a68098f143eb8beebf63157bf1f0e32c50b597b176ce91dbfa783dc29947c6814e",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
+  main.variable(observer()).define(["md"], function(md){return(
+md`# Bar chart Race`
+)});
   main.variable(observer("data")).define("data", ["d3","FileAttachment"], async function(d3,FileAttachment){return(
-d3.csvParse(await FileAttachment("data_v6.csv").text(), d3.autoType)
+d3.csvParse(await FileAttachment("data-v8.csv").text(), d3.autoType)
 )});
   main.variable(observer("viewof replay")).define("viewof replay", ["html"], function(html){return(
 html`<button>Replay`
@@ -28,7 +31,7 @@ slider({
 
   const svg = d3.create("svg")
       .attr("viewBox", [0, 0, width, height]);
-
+  
   const updateBars = bars(svg);
   const updateAxis = axis(svg);
   const updateLabels = labels(svg);
@@ -36,14 +39,16 @@ slider({
 
   yield svg.node();
 
+  // use keyframes in the transition within the duration
   for (const keyframe of keyframes) {
     const transition = svg.transition()
         .duration(duration)
+        // linear easing enures the animation runs at constant speed
         .ease(d3.easeLinear);
 
-    // Extract the top bar’s value.
+    // extract the top bar's value
     x.domain([0, keyframe[1][0].value]);
-
+    // update each part's content
     updateAxis(keyframe, transition);
     updateBars(keyframe, transition);
     updateLabels(keyframe, transition);
@@ -54,9 +59,6 @@ slider({
   }
 }
 );
-  main.variable(observer()).define(["data"], function(data){return(
-data
-)});
   main.variable(observer()).define(["d3","data"], function(d3,data){return(
 d3.group(data, d => d.name)
 )});
@@ -67,26 +69,23 @@ d3.group(data, d => d.name)
 new Set(data.map(d => d.name))
 )});
   main.variable(observer("datevalues")).define("datevalues", ["d3","data"], function(d3,data){return(
-Array.from(d3.rollup(data, ([d]) => d.value, d => +d.date, d => d.name))
-  .map(([date, data]) => [new Date(date), data])
+Array.from(d3.rollup(data, ([d]) => d.value, d => +d.date, d => d.name)) 
+  .map(([date, data]) => [new Date(date), data]) // construct a nested map from date and name to value
   .sort(([a], [b]) => d3.ascending(a, b))
 )});
   main.variable(observer("rank")).define("rank", ["names","d3","n"], function(names,d3,n){return(
 function rank(value) {
-  const data = Array.from(names, name => ({name, value: value(name)}));
-  data.sort((a, b) => d3.descending(a.value, b.value));
-  for (let i = 0; i < data.length; ++i) data[i].rank = Math.min(n, i); // n是之前定义的12个
+  const data = Array.from(names, name => ({name, value: value(name)})); // extract each LHD's value in an array
+  data.sort((a, b) => d3.descending(a.value, b.value)); // sort the array in descending order
+  for (let i = 0; i < data.length; ++i) data[i].rank = Math.min(n, i); // assign the rank to the value
   return data;
 }
-)});
-  main.variable(observer()).define(["rank","datevalues"], function(rank,datevalues){return(
-rank(name => datevalues[0][1].get(name))
 )});
   main.variable(observer("k")).define("k", function(){return(
 1
 )});
   main.variable(observer()).define(["FileAttachment"], function(FileAttachment){return(
-FileAttachment("data_v6.csv").csv()
+FileAttachment("data-v8.csv").csv()
 )});
   main.variable(observer("keyframes")).define("keyframes", ["d3","datevalues","k","rank"], function(d3,datevalues,k,rank)
 { 
@@ -94,14 +93,14 @@ FileAttachment("data_v6.csv").csv()
   let ka, a, kb, b;
   for ([[ka, a], [kb, b]] of d3.pairs(datevalues)) {
     for (let i = 0; i < k; ++i) {
-      const t = i / k;
+      const t = i / k; // now t is always 0
       keyframes.push([
-        new Date(ka * (1 - t) + kb * t),
+        new Date(ka * (1 - t) + kb * t), // set interpolated value between valueA and valueB
         rank(name => (a.get(name) || 0) * (1 - t) + (b.get(name) || 0) * t)
       ]);
     }
   }
-  keyframes.push([new Date(kb), rank(name => b.get(name) || 0)]);
+  keyframes.push([new Date(kb), rank(name => b.get(name) || 0)]); // interplated key frames
   return keyframes;
 }
 );
@@ -117,22 +116,23 @@ new Map(nameframes.flatMap(([, data]) => d3.pairs(data)))
   main.variable(observer("bars")).define("bars", ["n","color","y","x","prev","next"], function(n,color,y,x,prev,next){return(
 function bars(svg) {
   let bar = svg.append("g")
-      .attr("fill-opacity", 0.6)
+      .attr("fill-opacity", 0.6) // any attributes is shared by all bars
     .selectAll("rect");
 
   return ([date, data], transition) => bar = bar
     .data(data.slice(0, n), d => d.name)
     .join(
+      // use selection.join in enter, update and exit respectively
       enter => enter.append("rect")
         .attr("fill", color)
         .attr("height", y.bandwidth())
         .attr("x", x(0))
         .attr("y", d => y((prev.get(d) || d).rank))
-        .attr("width", d => x((prev.get(d) || d).value) - x(0)),
+        .attr("width", d => x((prev.get(d) || d).value) - x(0)), // based on prev rank
       update => update,
       exit => exit.transition(transition).remove()
         .attr("y", d => y((next.get(d) || d).rank))
-        .attr("width", d => x((next.get(d) || d).value) - x(0))
+        .attr("width", d => x((next.get(d) || d).value) - x(0)) // based on next rank
     )
     .call(bar => bar.transition(transition)
       .attr("y", d => y(d.rank))
@@ -142,6 +142,7 @@ function bars(svg) {
   main.variable(observer("labels")).define("labels", ["n","x","prev","y","next","textTween"], function(n,x,prev,y,next,textTween){return(
 function labels(svg) {
   let label = svg.append("g")
+      // set text style
       .style("font", "bold 16px var(--sans-serif)")
       .style("font-variant-numeric", "tabular-nums")
       .attr("text-anchor", "end")
@@ -150,18 +151,18 @@ function labels(svg) {
   return ([date, data], transition) => label = label
     .data(data.slice(0, n), d => d.name)
     .join(
-      enter => enter.append("text")
+      enter => enter.append("text") // LHD name
         .attr("transform", d => `translate(${x((prev.get(d) || d).value)},${y((prev.get(d) || d).rank)})`)
         .attr("y", y.bandwidth() / 2)
         .attr("x", -6)
         .attr("dy", "-0.25em")
         .text(d => d.name)
-        .call(text => text.append("tspan")
+        .call(text => text.append("tspan") // cases count
           .attr("fill-opacity", 0.7)
           .attr("font-weight", "normal")
           .attr("x", -6)
           .attr("dy", "1.15em")),
-      update => update,
+      update => update, // update the text in the label
       exit => exit.transition(transition).remove()
         .attr("transform", d => `translate(${x((next.get(d) || d).value)},${y((next.get(d) || d).rank)})`)
         .call(g => g.select("tspan").tween("text", d => textTween(d.value, (next.get(d) || d).value)))
@@ -173,6 +174,7 @@ function labels(svg) {
 )});
   main.variable(observer("textTween")).define("textTween", ["d3","formatNumber"], function(d3,formatNumber){return(
 function textTween(a, b) {
+  // this function is for a more readble text transition in labels
   const i = d3.interpolateNumber(a, b);
   return function(t) {
     this.textContent = formatNumber(i(t));
@@ -188,11 +190,13 @@ function axis(svg) {
       .attr("transform", `translate(0,${margin.top})`);
 
   const axis = d3.axisTop(x)
+      // ticks counts based on screen width
       .ticks(width / 160)
       .tickSizeOuter(0)
       .tickSizeInner(-barSize * (n + y.padding()));
 
   return (_, transition) => {
+    // use post-selection—modifying the elements generated by the axis
     g.transition(transition).call(axis);
     g.select(".tick:first-of-type text").remove();
     g.selectAll(".tick:not(:first-of-type) line").attr("stroke", "white");
@@ -203,15 +207,18 @@ function axis(svg) {
   main.variable(observer("ticker")).define("ticker", ["width","margin","barSize","n","formatDate","keyframes"], function(width,margin,barSize,n,formatDate,keyframes){return(
 function ticker(svg) {
   const now = svg.append("text")
+      // set ticker font style
       .style("font", `bold ${48}px var(--sans-serif)`)
       .style("font-variant-numeric", "tabular-nums")
       .attr("text-anchor", "end")
       .attr("x", width - 6)
       .attr("y", margin.top + barSize * (n - 0.45))
       .attr("dy", "0.32em")
+      // display the date of the first set of data by default
       .text(formatDate(keyframes[0][0]));
 
   return ([date], transition) => {
+    // update the ticker based on the kerframes' date
     transition.end().then(() => now.text(formatDate(date)));
   };
 }
@@ -221,7 +228,9 @@ d3.utcFormat("%x")
 )});
   main.variable(observer("color")).define("color", ["d3","data"], function(d3,data)
 {
+  // set bar colour
   const scale = d3.scaleOrdinal(d3.schemeTableau10);
+  // every LHD has a special category value so all will have a different colour
   if (data.some(d => d.category !== undefined)) {
     const categoryByName = new Map(data.map(d => [d.name, d.category]))
     scale.domain(Array.from(categoryByName.values()));
@@ -235,6 +244,7 @@ d3.scaleLinear([0, 1], [margin.left, width - margin.right])
 )});
   main.variable(observer("y")).define("y", ["d3","n","margin","barSize"], function(d3,n,margin,barSize){return(
 d3.scaleBand()
+    // set the y-axis as 10+1 so bars can enter and exit
     .domain(d3.range(n + 1))
     .rangeRound([margin.top, margin.top + barSize * (n + 1 + 0.1)])
     .padding(0.1)

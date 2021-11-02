@@ -1,17 +1,18 @@
-// https://observablehq.com/@wwj/nsw-dose-coverage-population-and-cases-gapminder@2866
-import define1 from "./450051d7f1174df8@254.js";
-import define2 from "./e93997d5089d7165@2303.js";
+// https://observablehq.com/@wwj/nsw-dose-coverage-population-and-cases-gapminder@3345
+import define1 from "./a33468b95d0b15b0@806.js";
+import define2 from "./450051d7f1174df8@254.js";
+import define3 from "./e93997d5089d7165@2303.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
-  const fileAttachments = new Map([["covid-19-vaccination-local-government-area-lga-28-august-2021.csv",new URL("./files/c9756c93e697b1da6fae4b8895b590674d95b6a3d4afcba9318a3d232408cc916a4ba96f48b44d970ea8728d5ba61851f135da60ddb0aefd62a167f8a9b67ab1",import.meta.url)],["covid-19-vaccination-local-government-area-lga-6-september-2021-covid-19-vaccination-local-government-area-lga.csv",new URL("./files/dfa1c46f1ea36a8fd29ecc342998925c8873bfee9825f046a2546056d284fc11e64616e346655fb4de49c32fc122ae54d0f7fa4586f1b09fd91bc5eb01d287a6",import.meta.url)],["LGA 2016 population statistics@1.csv",new URL("./files/504a594b3a5b6bcfed4723cdc6d215691133c141ed68dc97c114a44d685e4f6c54f54b2bea2288b64fd8fc02b332825d500b081970625adc95ab393d25c2e061",import.meta.url)],["covid-19-vaccination-local-government-area-lga-13-september-2021.csv",new URL("./files/47ae517b3a360dc8bcd5ab06c7be314eb250b2362ed186639dfb0db03e36059edf41aec3c6db65c54b9d8a0fd19b4ea11f153109385dc0b8e87b1298665f207c",import.meta.url)],["covid-19-vaccination-local-government-area-lga-20-september-2021-covid-19-vaccination-local-government-area-lga@2.csv",new URL("./files/a084610eb900c59c961c7efb9946e74c92c8d2a685600c9e049cc6a280338588011b32e7f670a302dd5e26715bc984a2738d695a6ac3f097b3a624690477aef0",import.meta.url)],["covid-19-vaccination-local-government-area-lga-27-september-2021@2.csv",new URL("./files/e5469e90774d4c31986b27677becea98a5f3c4813f848931e62d0d0a4a0272cc64e02419e2d1275fdb004389cda7aecf2ef6280920debe05060046a77faadab0",import.meta.url)],["covid-19-vaccination-local-government-area-lga-4-october-2021@2.csv",new URL("./files/acf20c0e92499157e4ea7da531b42b22ce3eddf697b99a724fc7cd71e88a6b5664df2e6a28c64bab405e518abb4c7d4c5b750f850e415f2d4b28d386b80357ff",import.meta.url)],["covid-19-vaccination-local-government-area-lga-11-october-2021@2.csv",new URL("./files/458b711db41f20c726a66e2a58c0a83637491e47f0370f30d13c352e3b59a563170fb7a97246debf72ae623a1ef4adedf4db05c771fc400830ccb301a27a5422",import.meta.url)],["covid-19-vaccination-local-government-area-lga-18-october-2021.csv",new URL("./files/cbc214446eb8039121dbe092d66876659704931fb0136df7a051ff2b64d47d2d7091ffdb577315bb850028ed8434d31f086b808fd10178304b08efc4c25a6bc8",import.meta.url)]]);
+  const fileAttachments = new Map([["covid-19-vaccination-local-government-area-lga-28-august-2021.csv",new URL("./files/c9756c93e697b1da6fae4b8895b590674d95b6a3d4afcba9318a3d232408cc916a4ba96f48b44d970ea8728d5ba61851f135da60ddb0aefd62a167f8a9b67ab1",import.meta.url)],["covid-19-vaccination-local-government-area-lga-6-september-2021-covid-19-vaccination-local-government-area-lga.csv",new URL("./files/dfa1c46f1ea36a8fd29ecc342998925c8873bfee9825f046a2546056d284fc11e64616e346655fb4de49c32fc122ae54d0f7fa4586f1b09fd91bc5eb01d287a6",import.meta.url)],["LGA 2016 population statistics@1.csv",new URL("./files/504a594b3a5b6bcfed4723cdc6d215691133c141ed68dc97c114a44d685e4f6c54f54b2bea2288b64fd8fc02b332825d500b081970625adc95ab393d25c2e061",import.meta.url)],["covid-19-vaccination-local-government-area-lga-13-september-2021.csv",new URL("./files/47ae517b3a360dc8bcd5ab06c7be314eb250b2362ed186639dfb0db03e36059edf41aec3c6db65c54b9d8a0fd19b4ea11f153109385dc0b8e87b1298665f207c",import.meta.url)],["covid-19-vaccination-local-government-area-lga-20-september-2021-covid-19-vaccination-local-government-area-lga@2.csv",new URL("./files/a084610eb900c59c961c7efb9946e74c92c8d2a685600c9e049cc6a280338588011b32e7f670a302dd5e26715bc984a2738d695a6ac3f097b3a624690477aef0",import.meta.url)],["covid-19-vaccination-local-government-area-lga-27-september-2021@2.csv",new URL("./files/e5469e90774d4c31986b27677becea98a5f3c4813f848931e62d0d0a4a0272cc64e02419e2d1275fdb004389cda7aecf2ef6280920debe05060046a77faadab0",import.meta.url)],["covid-19-vaccination-local-government-area-lga-4-october-2021@2.csv",new URL("./files/acf20c0e92499157e4ea7da531b42b22ce3eddf697b99a724fc7cd71e88a6b5664df2e6a28c64bab405e518abb4c7d4c5b750f850e415f2d4b28d386b80357ff",import.meta.url)],["covid-19-vaccination-local-government-area-lga-11-october-2021@2.csv",new URL("./files/458b711db41f20c726a66e2a58c0a83637491e47f0370f30d13c352e3b59a563170fb7a97246debf72ae623a1ef4adedf4db05c771fc400830ccb301a27a5422",import.meta.url)],["covid-19-vaccination-local-government-area-lga-18-october-2021.csv",new URL("./files/cbc214446eb8039121dbe092d66876659704931fb0136df7a051ff2b64d47d2d7091ffdb577315bb850028ed8434d31f086b808fd10178304b08efc4c25a6bc8",import.meta.url)],["covid-19-vaccination-local-government-area-lga-25-october-2021.csv",new URL("./files/6874f2fdbeb7db5115b33d2f5829bbdad7723c7170494fe99624b5e0f44fa4c36ad0818085d7ebf4451f1d84e9c57f1419b580936def6f4729273c6e6358b33d",import.meta.url)],["covid-19-vaccination-local-government-area-lga-1-november-2021@2.csv",new URL("./files/4904dbdf3543bb1f8b130348f118e8e21912722859037a34826a23de9ef4b90e4f956117050240fe37bf1830c74843cc50f4c54f57e0b881f0d988191630f6cb",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
 md`# NSW Dose coverage, population and Cases Gapminder`
 )});
   main.variable(observer("viewof date")).define("viewof date", ["Scrubber","dates"], function(Scrubber,dates){return(
 Scrubber(dates, {format: date => date.toLocaleString("en", {month: "long", day: "numeric"}),
-    delay: 180,
+    delay: 180,//change the rate as date change
     loop: false,
     initial: 0,
     autoplay: false
@@ -30,7 +31,7 @@ radio({
 })
 )});
   main.variable(observer("radius_type")).define("radius_type", ["Generators", "viewof radius_type"], (G, _) => G.input(_));
-  main.variable(observer("legend")).define("legend", ["DOM","html","margin","color"], function(DOM,html,margin,color)
+  main.variable(observer("legend")).define("legend", ["DOM","html","gapMargin","gapColor"], function(DOM,html,gapMargin,gapColor)
 {
   const id = DOM.uid().id;
   return html`<style>
@@ -49,10 +50,10 @@ radio({
   background: var(--color);
 }
 
-</style><div style="display: flex; align-items: center; min-height: 33px; font: 10px sans-serif; margin-left: ${margin.left}px;"><div>${color.domain().map(Region => html`<span class="${id}" style="--color: ${color(Region)}">${document.createTextNode(Region)}</span>`)}`;
+</style><div style="display: flex; align-items: center; min-height: 33px; font: 10px sans-serif; margin-left: ${gapMargin.left}px;"><div>${gapColor.domain().map(Region => html`<span class="${id}" style="--color: ${gapColor(Region)}">${document.createTextNode(Region)}</span>`)}`;
 }
 );
-  main.variable(observer("chart")).define("chart", ["d3","width","height","xAxis","yAxis","grid","dataAt","x","y","radius_type","radius","color"], function(d3,width,height,xAxis,yAxis,grid,dataAt,x,y,radius_type,radius,color)
+  main.variable(observer("gapChart")).define("gapChart", ["d3","width","height","xAxis","yAxis","grid","dataAt","x","y","radius_type","radius","gapColor"], function(d3,width,height,xAxis,yAxis,grid,dataAt,x,y,radius_type,radius,gapColor)
 {
   const svg = d3.create("svg")
       .attr("viewBox", [0, 0, width, height]);
@@ -75,7 +76,7 @@ radio({
       .attr("cx", d => x(d.cases))
       .attr("cy", d => y(d[radius_type]))
       .attr("r", d => radius(d.population))
-      .attr("fill", d => color(d.region))
+      .attr("fill", d => gapColor(d.region))
       .call(circle => circle.append("title")
         .text(d => [d.name, d.region].join("\n")));
 
@@ -90,60 +91,62 @@ radio({
   });
 }
 );
-  main.variable(observer("height")).define("height", function(){return(
-600
-)});
-  main.variable(observer("xAxis")).define("xAxis", ["height","margin","d3","x","width"], function(height,margin,d3,x,width){return(
+  main.variable(observer("xAxis")).define("xAxis", ["height","gapMargin","d3","x","width"], function(height,gapMargin,d3,x,width){return(
 g => g
-    .attr("transform", `translate(0,${height - margin.bottom})`)
+    .attr("transform", `translate(0,${height - gapMargin.bottom})`)
     .call(d3.axisBottom(x).ticks(width / 50, ","))
     .call(g => g.select(".domain").remove())
     .call(g => g.append("text")
         .attr("x", width)
-        .attr("y", margin.bottom - 4)
+        .attr("y", gapMargin.bottom - 4)
         .attr("fill", "currentColor")
         .attr("text-anchor", "end")
         .text("Cases per Region  →"))
 )});
-  main.variable(observer("yAxis")).define("yAxis", ["margin","d3","y"], function(margin,d3,y){return(
+  main.variable(observer("yAxis")).define("yAxis", ["gapMargin","d3","y"], function(gapMargin,d3,y){return(
 g => g
-    .attr("transform", `translate(${margin.left},0)`)
+    .attr("transform", `translate(${gapMargin.left},0)`)
     .call(d3.axisLeft(y))
     .call(g => g.select(".domain").remove())
     .call(g => g.append("text")
-        .attr("x", -margin.left)
+        .attr("x", -gapMargin.left)
         .attr("y", 10)
         .attr("fill", "currentColor")
         .attr("text-anchor", "start")
         .text("↑ Vaccination Rates %"))
 )});
-  main.variable(observer("x")).define("x", ["d3","margin","width"], function(d3,margin,width){return(
+  main.variable(observer("x")).define("x", ["d3","gapMargin","width"], function(d3,gapMargin,width){return(
 d3
   .scaleLog()
-  .range([1.2*margin.left, width - margin.right])
+  .range([1.2*gapMargin.left, width - gapMargin.right])
   .domain([1, 20000])
 )});
-  main.variable(observer("y")).define("y", ["d3","height","margin"], function(d3,height,margin){return(
-d3.scaleLinear([20, 100], [height - margin.bottom, margin.top])
+  main.variable(observer("y")).define("y", ["d3","height","gapMargin"], function(d3,height,gapMargin){return(
+d3.scaleLinear([20, 100], [height - gapMargin.bottom, gapMargin.top])
 )});
   main.variable(observer("radius")).define("radius", ["d3","width"], function(d3,width){return(
 d3.scaleSqrt([0, 5e8], [0, width])
 )});
-  main.variable(observer("color")).define("color", ["d3","data","myColor"], function(d3,data,myColor){return(
-d3.scaleOrdinal(data.map(d => d.region), myColor).unknown("black")
+  main.variable(observer("gapColor")).define("gapColor", ["d3","data","gapMyColor"], function(d3,data,gapMyColor){return(
+d3.scaleOrdinal(data.map(d => d.region), gapMyColor).unknown("black")
 )});
-  main.variable(observer("margin")).define("margin", function(){return(
+  const child1 = runtime.module(define1);
+  main.import("swatches", child1);
+  main.variable(observer("gapMargin")).define("gapMargin", function(){return(
 {top: 20, right: 20, bottom: 35, left: 40}
 )});
-  main.variable(observer("myColor")).define("myColor", function(){return(
+  main.variable(observer("gapMyColor")).define("gapMyColor", function(){return(
 ["#9370DB","#e15759"
 ,"#D2691E","#FFFACD","#f46d43","#2E8B57","#FAEBD7","#9c755f","#3288bd","#af7aa1","#191970","#9e0142","#abdda4","darkgreen","#bab0ab"]
+)});
+  main.variable(observer("height")).define("height", function(){return(
+600
 )});
   main.variable(observer("currentData")).define("currentData", ["dataAt","date"], function(dataAt,date){return(
 dataAt(date)
 )});
-  main.variable(observer("update")).define("update", ["chart","currentData"], function(chart,currentData){return(
-chart.update(currentData)
+  main.variable(observer("update")).define("update", ["gapChart","currentData"], function(gapChart,currentData){return(
+gapChart.update(currentData)
 )});
   main.variable(observer("dates")).define("dates", ["interval","d3","data"], function(interval,d3,data){return(
 interval.range(
@@ -165,7 +168,7 @@ interval.range(
   })
 )
 )});
-  main.variable(observer("grid")).define("grid", ["x","margin","height","y","width"], function(x,margin,height,y,width){return(
+  main.variable(observer("grid")).define("grid", ["x","gapMargin","height","y","width"], function(x,gapMargin,height,y,width){return(
 g => g
     .attr("stroke", "currentColor")
     .attr("stroke-opacity", 0.1)
@@ -175,16 +178,16 @@ g => g
       .join("line")
         .attr("x1", d => 0.5 + x(d))
         .attr("x2", d => 0.5 + x(d))
-        .attr("y1", margin.top)
-        .attr("y2", height - margin.bottom))
+        .attr("y1", gapMargin.top)
+        .attr("y2", height - gapMargin.bottom))
     .call(g => g.append("g")
       .selectAll("line")
       .data(y.ticks())
       .join("line")
         .attr("y1", d => 0.5 + y(d))
         .attr("y2", d => 0.5 + y(d))
-        .attr("x1", margin.left)
-        .attr("x2", width - margin.right))
+        .attr("x1", gapMargin.left)
+        .attr("x2", width - gapMargin.right))
 )});
   main.variable(observer("valueAt")).define("valueAt", ["bisectDate"], function(bisectDate){return(
 function valueAt(values, date) {
@@ -244,10 +247,10 @@ function parseSeries(series) {
 d3.bisector(([date]) => date).left
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
-require("d3@6.7.0/dist/d3.min.js")
+require("d3@6")
 )});
-  const child1 = runtime.module(define1);
-  main.import("Scrubber", child1);
+  const child2 = runtime.module(define2);
+  main.import("Scrubber", child2);
   main.variable(observer("rawData")).define("rawData", function(){return(
 fetch('https://data.nsw.gov.au/data/dataset/97ea2424-abaf-4f3e-a9f2-b5c883f42b6a/resource/2776dbb8-f807-4fb2-b1ed-184a6fc2c8aa/download/confirmed_cases_table4_location_likely_source.csv')
 )});
@@ -278,7 +281,7 @@ function isNA(obj) {
   return obj !== "N/A"
 }
 )});
-  main.variable(observer("transformer")).define("transformer", ["DoseRelatedKeys"], function(DoseRelatedKeys){return(
+  main.variable(observer("transformerLGA")).define("transformerLGA", ["DoseRelatedKeys"], function(DoseRelatedKeys){return(
 (inData) => {
 
   let outData = [];
@@ -324,6 +327,9 @@ function isNA(obj) {
   return outData;
 }
 )});
+  main.variable(observer("transformedLGAData")).define("transformedLGAData", ["transformerLGA","updateData"], function(transformerLGA,updateData){return(
+transformerLGA(updateData)
+)});
   main.variable(observer("sumCases")).define("sumCases", ["theAreaKeys"], function(theAreaKeys){return(
 (inData) => {
   let outData = [];
@@ -360,14 +366,8 @@ function isNA(obj) {
   return outData;
 }
 )});
-  main.variable(observer("sumcasesfromFirstDate")).define("sumcasesfromFirstDate", ["sumCases","readySumTransformedData"], function(sumCases,readySumTransformedData){return(
-sumCases(readySumTransformedData)
-)});
-  main.variable(observer("transformedData")).define("transformedData", ["transformer","updateData"], function(transformer,updateData){return(
-transformer(updateData)
-)});
-  main.variable(observer("readySumTransformedData")).define("readySumTransformedData", ["transformedData"], function(transformedData){return(
-transformedData
+  main.variable(observer("sumcasesfromFirstDate")).define("sumcasesfromFirstDate", ["sumCases","transformedLGAData"], function(sumCases,transformedLGAData){return(
+sumCases(transformedLGAData)
 )});
   main.variable(observer("Date0827")).define("Date0827", function(){return(
 new Date("2021-08-27")
@@ -393,41 +393,52 @@ new Date("2021-10-11")
   main.variable(observer("Date1018")).define("Date1018", function(){return(
 new Date("2021-10-18")
 )});
-  main.variable(observer("dateSelecter")).define("dateSelecter", ["transformedData","Date0827","Date0906","Date0913","Date0920","Date0927","Date1004","Date1011","Date1018"], function(transformedData,Date0827,Date0906,Date0913,Date0920,Date0927,Date1004,Date1011,Date1018){return(
+  main.variable(observer("Date1025")).define("Date1025", function(){return(
+new Date("2021-10-25")
+)});
+  main.variable(observer("Date1101")).define("Date1101", function(){return(
+new Date("2021-11-01")
+)});
+  main.variable(observer("dateSelecter")).define("dateSelecter", ["transformedLGAData","Date0827","Date0906","Date0913","Date0920","Date0927","Date1004","Date1011","Date1018","Date1025","Date1101"], function(transformedLGAData,Date0827,Date0906,Date0913,Date0920,Date0927,Date1004,Date1011,Date1018,Date1025,Date1101){return(
 (d) => {
   // const Date1011 = new Date("2021-10-11");
     let outdata = [];
     let poisition = [];
     for(let i = 0; i<d.length; i++){
-      if(transformedData[i]["date"].toISOString() === Date0827.toISOString()){
+      if(transformedLGAData[i]["date"].toISOString() === Date0827.toISOString()){
         poisition.push(i);
       }
-      else if(transformedData[i]["date"].toISOString() === Date0906.toISOString()){
+      else if(transformedLGAData[i]["date"].toISOString() === Date0906.toISOString()){
         poisition.push(i);
       }
-      else if(transformedData[i]["date"].toISOString() === Date0913.toISOString()){
+      else if(transformedLGAData[i]["date"].toISOString() === Date0913.toISOString()){
         poisition.push(i);
       }
-        else if(transformedData[i]["date"].toISOString() === Date0920.toISOString()){
+        else if(transformedLGAData[i]["date"].toISOString() === Date0920.toISOString()){
         poisition.push(i);
       }
-      else if(transformedData[i]["date"].toISOString() === Date0927.toISOString()){
+      else if(transformedLGAData[i]["date"].toISOString() === Date0927.toISOString()){
         poisition.push(i);
       }
-      else if(transformedData[i]["date"].toISOString() === Date1004.toISOString()){
+      else if(transformedLGAData[i]["date"].toISOString() === Date1004.toISOString()){
         poisition.push(i);
       }
-      else if(transformedData[i]["date"].toISOString() === Date1011.toISOString()){
+      else if(transformedLGAData[i]["date"].toISOString() === Date1011.toISOString()){
         poisition.push(i);
       }
-      else if(transformedData[i]["date"].toISOString() === Date1018.toISOString()){
+      else if(transformedLGAData[i]["date"].toISOString() === Date1018.toISOString()){
         poisition.push(i);
       }
-      // else if(){}
+      else if(transformedLGAData[i]["date"].toISOString() === Date1025.toISOString()){
+        poisition.push(i);
+      }
+      else if(transformedLGAData[i]["date"].toISOString() === Date1101.toISOString()){
+        poisition.push(i);
+      }
     }
     for (let i=0; i<poisition.length; i++) {
       let obj = {}
-    obj = transformedData[poisition[i]]
+    obj = transformedLGAData[poisition[i]]
     outdata.push(obj);
     }
     return outdata;
@@ -462,6 +473,12 @@ Object.assign(d3.csvParse(await FileAttachment("covid-19-vaccination-local-gover
 )});
   main.variable(observer("rawDoseData1018")).define("rawDoseData1018", ["d3","FileAttachment"], async function(d3,FileAttachment){return(
 Object.assign(d3.csvParse(await FileAttachment("covid-19-vaccination-local-government-area-lga-18-october-2021.csv").text(), d3.autoType))
+)});
+  main.variable(observer("rawDoseData1025")).define("rawDoseData1025", ["d3","FileAttachment"], async function(d3,FileAttachment){return(
+Object.assign(d3.csvParse(await FileAttachment("covid-19-vaccination-local-government-area-lga-25-october-2021.csv").text(), d3.autoType))
+)});
+  main.variable(observer("rawDoseData1101")).define("rawDoseData1101", ["d3","FileAttachment"], async function(d3,FileAttachment){return(
+Object.assign(d3.csvParse(await FileAttachment("covid-19-vaccination-local-government-area-lga-1-november-2021@2.csv").text(), d3.autoType))
 )});
   main.variable(observer("rawDoseOnes0827")).define("rawDoseOnes0827", ["rawDoseData0827","isNA"], function(rawDoseData0827,isNA){return(
 rawDoseData0827.filter(
@@ -505,8 +522,20 @@ rawDoseData1011.filter(
   d["State of Residence"] === "New South Wales"&& isNA(d["Dose 1 % coverage of 15+"]) && isNA(d["Dose 2 % coverage of 15+"])
 )
 )});
-  main.variable(observer("rawDoseOnes1018")).define("rawDoseOnes1018", ["rawDoseData1011","isNA"], function(rawDoseData1011,isNA){return(
-rawDoseData1011.filter(
+  main.variable(observer("rawDoseOnes1018")).define("rawDoseOnes1018", ["rawDoseData1018","isNA"], function(rawDoseData1018,isNA){return(
+rawDoseData1018.filter(
+  (d) =>
+  d["State of Residence"] === "New South Wales"&& isNA(d["Dose 1 % coverage of 15+"]) && isNA(d["Dose 2 % coverage of 15+"])
+)
+)});
+  main.variable(observer("rawDoseOnes1025")).define("rawDoseOnes1025", ["rawDoseData1025","isNA"], function(rawDoseData1025,isNA){return(
+rawDoseData1025.filter(
+  (d) =>
+  d["State of Residence"] === "New South Wales"&& isNA(d["Dose 1 % coverage of 15+"]) && isNA(d["Dose 2 % coverage of 15+"])
+)
+)});
+  main.variable(observer("rawDoseOnes1101")).define("rawDoseOnes1101", ["rawDoseData1101","isNA"], function(rawDoseData1101,isNA){return(
+rawDoseData1101.filter(
   (d) =>
   d["State of Residence"] === "New South Wales"&& isNA(d["Dose 1 % coverage of 15+"]) && isNA(d["Dose 2 % coverage of 15+"])
 )
@@ -557,9 +586,6 @@ Object.assign(d3.csvParse(await FileAttachment("LGA 2016 population statistics@1
   main.variable(observer("regionRelatedDose")).define("regionRelatedDose", ["regionDoserRelater","DoseKeys0827"], function(regionDoserRelater,DoseKeys0827){return(
 regionDoserRelater(DoseKeys0827)
 )});
-  main.variable(observer("DoseKeys0827")).define("DoseKeys0827", ["addDoseKeys","rawDoseOnes0827"], function(addDoseKeys,rawDoseOnes0827){return(
-addDoseKeys(rawDoseOnes0827)
-)});
   main.variable(observer("addRegionKeys")).define("addRegionKeys", ["rawOnes"], function(rawOnes){return(
 (inData) => {
     let outData = [];
@@ -602,6 +628,9 @@ addRegionKeys(rawDataPopulation)
   return outData;
 }
 )});
+  main.variable(observer("DoseKeys0827")).define("DoseKeys0827", ["addDoseKeys","rawDoseOnes0827"], function(addDoseKeys,rawDoseOnes0827){return(
+addDoseKeys(rawDoseOnes0827)
+)});
   main.variable(observer("DoseKeys0906")).define("DoseKeys0906", ["addDoseKeys","rawDoseOnes0906"], function(addDoseKeys,rawDoseOnes0906){return(
 addDoseKeys(rawDoseOnes0906)
 )});
@@ -623,18 +652,20 @@ addDoseKeys(rawDoseOnes1011)
   main.variable(observer("DoseKeys1018")).define("DoseKeys1018", ["addDoseKeys","rawDoseOnes1018"], function(addDoseKeys,rawDoseOnes1018){return(
 addDoseKeys(rawDoseOnes1018)
 )});
+  main.variable(observer("DoseKeys1025")).define("DoseKeys1025", ["addDoseKeys","rawDoseOnes1025"], function(addDoseKeys,rawDoseOnes1025){return(
+addDoseKeys(rawDoseOnes1025)
+)});
+  main.variable(observer("DoseKeys1101")).define("DoseKeys1101", ["addDoseKeys","rawDoseOnes1101"], function(addDoseKeys,rawDoseOnes1101){return(
+addDoseKeys(rawDoseOnes1101)
+)});
   main.variable(observer("populationFormater")).define("populationFormater", ["DoseRelatedKeys","dateArray"], function(DoseRelatedKeys,dateArray){return(
 (populationData) => {
     let outData = [];
    let populationPerline = []
     let obj = {};
     let innerArr = [];
-    // let keydateArray=[] 
     let num = 0;
-    // let region = ""
-    // let i=0;
-
-    //inData = rawDatapulation
+    
     for (const d of populationData) {
       if (DoseRelatedKeys.indexOf(d["Local government area"]) !== -1 ) {
         
@@ -644,7 +675,6 @@ addDoseKeys(rawDoseOnes1018)
         }
         let obj = {
           "name": d["Local government area"],
-          // "region": region,
           "Population": populationPerline
           // ""
         }
@@ -699,10 +729,10 @@ populationFormater(rawDataPopulation)
   main.variable(observer("DoseRelatedKeys")).define("DoseRelatedKeys", ["addDoseRelatedKeys","DoseKeys0827"], function(addDoseRelatedKeys,DoseKeys0827){return(
 addDoseRelatedKeys(DoseKeys0827)
 )});
-  main.variable(observer("lgaDose1")).define("lgaDose1", ["Dose1Formater","regionRelatedDose"], function(Dose1Formater,regionRelatedDose){return(
-Dose1Formater(regionRelatedDose)
+  main.variable(observer("lgaDose")).define("lgaDose", ["DoseFormater","regionRelatedDose"], function(DoseFormater,regionRelatedDose){return(
+DoseFormater(regionRelatedDose)
 )});
-  main.variable(observer("Dose1Formater")).define("Dose1Formater", ["DoseKeys0827","dateArray","DoseKeys0906","DoseKeys0913","DoseKeys0920","DoseKeys0927","DoseKeys1004","DoseKeys1011","DoseKeys1018"], function(DoseKeys0827,dateArray,DoseKeys0906,DoseKeys0913,DoseKeys0920,DoseKeys0927,DoseKeys1004,DoseKeys1011,DoseKeys1018){return(
+  main.variable(observer("DoseFormater")).define("DoseFormater", ["DoseKeys0827","dateArray","DoseKeys0906","DoseKeys0913","DoseKeys0920","DoseKeys0927","DoseKeys1004","DoseKeys1011","DoseKeys1018","DoseKeys1025","DoseKeys1101"], function(DoseKeys0827,dateArray,DoseKeys0906,DoseKeys0913,DoseKeys0920,DoseKeys0927,DoseKeys1004,DoseKeys1011,DoseKeys1018,DoseKeys1025,DoseKeys1101){return(
 (Cases) => {
     let outData = [];
     let doses1Perline = [];
@@ -710,7 +740,7 @@ Dose1Formater(regionRelatedDose)
     let innerArr = [];
     let obj= {};
     let i = 0;
-
+//form dose according to the date sequence one by one
   for (const d of Cases) {
     if(parseFloat(DoseKeys0827[i]["Dose1"]).toString() !== "NaN"){
       innerArr = [
@@ -812,6 +842,32 @@ Dose1Formater(regionRelatedDose)
     else{
       innerArr = [
       dateArray[7]["date"], parseFloat("95.1")
+      ];
+      doses1Perline.push(innerArr);
+    }
+
+    if(parseFloat(DoseKeys1025[i]["Dose1"]).toString() !== "NaN"){
+      innerArr = [
+      dateArray[8]["date"], parseFloat(DoseKeys1025[i]["Dose1"])
+      ];
+      doses1Perline.push(innerArr);
+    }
+    else{
+      innerArr = [
+      dateArray[8]["date"], parseFloat("95.1")
+      ];
+      doses1Perline.push(innerArr);
+    }
+
+    if(parseFloat(DoseKeys1101[i]["Dose1"]).toString() !== "NaN"){
+      innerArr = [
+      dateArray[9]["date"], parseFloat(DoseKeys1101[i]["Dose1"])
+      ];
+      doses1Perline.push(innerArr);
+    }
+    else{
+      innerArr = [
+      dateArray[9]["date"], parseFloat("95.1")
       ];
       doses1Perline.push(innerArr);
     }
@@ -920,31 +976,31 @@ Dose1Formater(regionRelatedDose)
       doses2Perline.push(innerArr);
     }
 
-    
-    // innerArr = [
-    //   dateArray[1]["date"], parseFloat(DoseKeys0906[i]["Dose1"])
-    // ];
-    // dosesPerline.push(innerArr);
-    // innerArr = [
-    //   dateArray[2]["date"], parseFloat(DoseKeys0913[i]["Dose1"])
-    // ];
-    // dosesPerline.push(innerArr);
-    // innerArr = [
-    //   dateArray[3]["date"], parseFloat(DoseKeys0920[i]["Dose1"])
-    // ];
-    // dosesPerline.push(innerArr);
-    // innerArr = [
-    //   dateArray[4]["date"], parseFloat(DoseKeys0927[i]["Dose1"])
-    // ];
-    // dosesPerline.push(innerArr);
-    // innerArr = [
-    //   dateArray[5]["date"], parseFloat(DoseKeys1004[i]["Dose1"])
-    // ];
-    // dosesPerline.push(innerArr);
-    // innerArr = [
-    //   dateArray[6]["date"], parseFloat(DoseKeys1011[i]["Dose1"])
-    // ];
-    // dosesPerline.push(innerArr);
+    if(parseFloat(DoseKeys1025[i]["Dose2"]).toString() !== "NaN"){
+      innerArr = [
+      dateArray[8]["date"], parseFloat(DoseKeys1025[i]["Dose2"])
+      ];
+      doses2Perline.push(innerArr);
+    }
+    else{
+      innerArr = [
+      dateArray[8]["date"], parseFloat("95.1")
+      ];
+      doses2Perline.push(innerArr);
+    }
+
+    if(parseFloat(DoseKeys1101[i]["Dose2"]).toString() !== "NaN"){
+      innerArr = [
+      dateArray[9]["date"], parseFloat(DoseKeys1101[i]["Dose2"])
+      ];
+      doses2Perline.push(innerArr);
+    }
+    else{
+      innerArr = [
+      dateArray[9]["date"], parseFloat("95.1")
+      ];
+      doses2Perline.push(innerArr);
+    }
     obj = {
             "name": d["name"],
             "Doses1": doses1Perline,
@@ -958,7 +1014,7 @@ Dose1Formater(regionRelatedDose)
    return outData; 
 }
 )});
-  main.variable(observer("DataFormater")).define("DataFormater", ["lgaCases","lgaPopulation","lgaDose1"], function(lgaCases,lgaPopulation,lgaDose1){return(
+  main.variable(observer("DataFormater")).define("DataFormater", ["lgaCases","lgaPopulation","lgaDose"], function(lgaCases,lgaPopulation,lgaDose){return(
 (inData) => {
     let outData = [];
     let obj= {};
@@ -970,8 +1026,8 @@ Dose1Formater(regionRelatedDose)
       "region":d["region"],
       "cases":lgaCases[i]["Cases"],
       "population":lgaPopulation[i]["Population"],
-      "dose1":lgaDose1[i]["Doses1"],
-      "dose2":lgaDose1[i]["Doses2"]
+      "dose1":lgaDose[i]["Doses1"],
+      "dose2":lgaDose[i]["Doses2"]
     }
     outData.push(obj);
   ++i;
@@ -982,13 +1038,13 @@ Dose1Formater(regionRelatedDose)
   main.variable(observer("data")).define("data", ["DataFormater","regionRelatedDose"], function(DataFormater,regionRelatedDose){return(
 DataFormater(regionRelatedDose)
 )});
-  const child2 = runtime.module(define2);
-  main.import("slider", child2);
-  main.import("button", child2);
-  main.import("select", child2);
-  main.import("text", child2);
-  main.import("radio", child2);
-  main.import("checkbox", child2);
-  main.import("number", child2);
+  const child3 = runtime.module(define3);
+  main.import("slider", child3);
+  main.import("button", child3);
+  main.import("select", child3);
+  main.import("text", child3);
+  main.import("radio", child3);
+  main.import("checkbox", child3);
+  main.import("number", child3);
   return main;
 }

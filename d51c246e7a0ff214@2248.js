@@ -1,32 +1,14 @@
-// https://observablehq.com/@georgialiu718/nsw-covid-map@2126
+// https://observablehq.com/@georgialiu718/nsw-covid-map@2248
 import define1 from "./450051d7f1174df8@254.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
-  const fileAttachments = new Map([["poland@4.json",new URL("./files/3909362a2130654a5bcc54f31fc1882ff58030b95aea306c08c387cfa8fce0978fcc8de02244ddc7e4b865c406008ec5606c4c2d003be5352e6991f1630e3dfa",import.meta.url)],["LGA 2016 population statistics.csv",new URL("./files/504a594b3a5b6bcfed4723cdc6d215691133c141ed68dc97c114a44d685e4f6c54f54b2bea2288b64fd8fc02b332825d500b081970625adc95ab393d25c2e061",import.meta.url)],["Suburb_and_LGA_PercentageArea@2.csv",new URL("./files/e6256e988638e53ff4befbf7ff23d640a0c48f465b1741c53f3253b517bc1e7fbbd376452a50cfe34a2365777700815e46f1ccac7f8fda2a7ea96ecf33efa89a",import.meta.url)]]);
+  const fileAttachments = new Map([["LGA 2016 population statistics.csv",new URL("./files/504a594b3a5b6bcfed4723cdc6d215691133c141ed68dc97c114a44d685e4f6c54f54b2bea2288b64fd8fc02b332825d500b081970625adc95ab393d25c2e061",import.meta.url)],["LGANameToCoords.json",new URL("./files/78df2fad3d1f4cfdc736671a4563c2bc7dc735f7274c43a2e4d19d8b9ebe83afe9e3e40491f141b294a2e955c9c5a7a79acd61c7900c2bfd339df972ce703b11",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
 md`# New South Wales Coronavirus Daily Cases Map (COVID-19)
 
-On 17/03/2020 Ministry of Health in Poland has stopped sharing official data on a county level. This is an attempt to visualize the regional data, using an alternative dataset, based on local news. It may be incomplete but should visualize the spread better.
-
-*Source: [D. Tanajewski, A. Gleba, P. Borsuk, M. Augustynowicz, T. Kozakiewicz, M. Czyrzniak, P. Poskrobko: "Coronavirus infections data for Poland in 2020 (COVID-19 / 2019-nCoV)", 2020](https://github.com/dtandev/coronavirus) *
-
-*Artifacts: https://github.com/not7cd/covid19-poland-data*
-`
-)});
-  main.define("initial index", function(){return(
-0
-)});
-  main.variable(observer("mutable index")).define("mutable index", ["Mutable", "initial index"], (M, _) => new M(_));
-  main.variable(observer("index")).define("index", ["mutable index"], _ => _.generator);
-  main.variable(observer("update2")).define("update2", ["mutable index","dates","day"], function($0,dates,day)
-{
-  $0.value = dates.indexOf(day);
-}
-);
-  main.variable(observer("update1")).define("update1", ["map","index"], function(map,index){return(
-map.update(index)
+This bubble map displays the covid-19 cases for each LGA in NSW daily from july `
 )});
   main.variable(observer("viewof day")).define("viewof day", ["Scrubber","dates","data"], function(Scrubber,dates,data){return(
 Scrubber(dates.slice(0, data.length), {
@@ -37,18 +19,7 @@ Scrubber(dates.slice(0, data.length), {
 })
 )});
   main.variable(observer("day")).define("day", ["Generators", "viewof day"], (G, _) => G.input(_));
-  main.variable(observer("startDate")).define("startDate", function(){return(
-new Date("2021-07-01T00:00:00Z")
-)});
-  main.variable(observer("returnCurrentData")).define("returnCurrentData", ["mapData","day"], function(mapData,day){return(
-function returnCurrentData(){
-  for(var i = 0; i < mapData.length;i++){
-    if(mapData[i][0].date.split("T")[0] == day.toISOString().split("T")[0])
-      return mapData[i];
-    }
-  }
-)});
-  main.variable(observer("map")).define("map", ["d3","w","h","breakpoint","maxRadius","legendRadii","radius","colorScale","numFormat","sFormat","provinces","path","data","mutable index","projection","places","html","delay"], function(d3,w,h,breakpoint,maxRadius,legendRadii,radius,colorScale,numFormat,sFormat,provinces,path,data,$0,projection,places,html,delay)
+  main.variable(observer("map")).define("map", ["d3","w","h","breakpoint","maxRadius","legendRadii","radius","colorScale","numFormat","sFormat","LGAs","path","data","mutable index","projection","places","html","delay"], function(d3,w,h,breakpoint,maxRadius,legendRadii,radius,colorScale,numFormat,sFormat,LGAs,path,data,$0,projection,places,html,delay)
 {
   const svg = d3
     .create("svg")
@@ -101,7 +72,7 @@ function returnCurrentData(){
   
   g
     .selectAll(".subunit")
-    .data(provinces.features)
+    .data(LGAs.features)
     .enter()
     .append("path")
     .attr("class", function(d) {
@@ -222,14 +193,6 @@ function returnCurrentData(){
   
 }
 );
-  main.variable(observer("projection")).define("projection", ["d3","provinces"], function(d3,provinces){return(
-d3
-  .geoAlbers()
-  .rotate([215, 8000])
-  .parallels([40, 50])
-  .fitExtent([[50, 30], [7000, 6000]], provinces)
-  .translate([-2000, 3700])
-)});
   main.variable(observer()).define(["md"], function(md){return(
 md`<br><br><br>
 
@@ -239,7 +202,31 @@ md`<br><br><br>
 
 ---
 
-<br><br><br><br><br><br><br>`
+><br><br><br><br>`
+)});
+  main.variable(observer("startDate")).define("startDate", function(){return(
+new Date("2021-07-01T00:00:00Z")
+)});
+  main.variable(observer("update1")).define("update1", ["map","index"], function(map,index){return(
+map.update(index)
+)});
+  main.variable(observer("update2")).define("update2", ["mutable index","dates","day"], function($0,dates,day)
+{
+  $0.value = dates.indexOf(day);
+}
+);
+  main.define("initial index", function(){return(
+0
+)});
+  main.variable(observer("mutable index")).define("mutable index", ["Mutable", "initial index"], (M, _) => new M(_));
+  main.variable(observer("index")).define("index", ["mutable index"], _ => _.generator);
+  main.variable(observer("projection")).define("projection", ["d3","LGAs"], function(d3,LGAs){return(
+d3
+  .geoAlbers()
+  .rotate([215, 8000])
+  .parallels([40, 50])
+  .fitExtent([[50, 30], [7000, 6000]], LGAs)
+  .translate([-2000, 3700])
 )});
   main.variable(observer("update3")).define("update3", ["html"], function(html)
 {
@@ -306,7 +293,6 @@ form output {
 [
   10,
   250,
-  //Math.round(maxLegend / 4 / magnitude) * magnitude,
   maxLegend
 ]
 )});
@@ -425,9 +411,6 @@ transformer(updateData)
   main.variable(observer("sumcasesfromFirstDate")).define("sumcasesfromFirstDate", ["sumCases","transformedData"], function(sumCases,transformedData){return(
 sumCases(transformedData)
 )});
-  main.variable(observer("mapData")).define("mapData", ["mapDataTransformer","sumcasesfromFirstDate"], function(mapDataTransformer,sumcasesfromFirstDate){return(
-mapDataTransformer(sumcasesfromFirstDate)
-)});
   main.variable(observer("mapDataTransformer")).define("mapDataTransformer", ["theAreaKeys","returnCoordsByName"], function(theAreaKeys,returnCoordsByName){return(
 (inData) => {
   let outData = [];
@@ -462,9 +445,6 @@ mapDataTransformer(sumcasesfromFirstDate)
   return outData;
   
 }
-)});
-  main.variable(observer()).define(["theAreaKeys"], function(theAreaKeys){return(
-theAreaKeys
 )});
   main.variable(observer("transformer")).define("transformer", ["theAreaKeys"], function(theAreaKeys){return(
 (inData) => {
@@ -526,18 +506,6 @@ theAreaKeys
   main.variable(observer("theAreaKeys")).define("theAreaKeys", ["addKeys","theAreanRegionKeys"], function(addKeys,theAreanRegionKeys){return(
 addKeys(theAreanRegionKeys)
 )});
-  main.variable(observer("r")).define("r", ["exam"], function(exam){return(
-exam()
-)});
-  main.variable(observer("exam")).define("exam", ["theAreaKeys","returnCoordsByName"], function(theAreaKeys,returnCoordsByName){return(
-function exam(){
-  let rest = [];
-  for(var i=0; i < theAreaKeys.length; i++){
-    rest.push(returnCoordsByName(theAreaKeys[i]));
-  }
-  return rest;
-}
-)});
   main.variable(observer("addRegionKeys")).define("addRegionKeys", ["rawOnes"], function(rawOnes){return(
 (inData) => {
     let outData = [];
@@ -587,11 +555,8 @@ function dateRange(start, end) {
   return dates;
 }
 )});
-  main.variable(observer("provinces")).define("provinces", ["topojson","nsw"], function(topojson,nsw){return(
+  main.variable(observer("LGAs")).define("LGAs", ["topojson","nsw"], function(topojson,nsw){return(
 topojson.feature(nsw, nsw.objects.LGAs)
-)});
-  main.variable(observer()).define(["returnCoordsByName"], function(returnCoordsByName){return(
-returnCoordsByName("hawkesbury")
 )});
   main.variable(observer("places")).define("places", function(){return(
 {
@@ -666,9 +631,6 @@ d3.format(",")
   main.variable(observer("path")).define("path", ["d3","projection"], function(d3,projection){return(
 d3.geoPath().projection(projection)
 )});
-  main.variable(observer("country")).define("country", ["FileAttachment"], function(FileAttachment){return(
-FileAttachment("poland@4.json").json()
-)});
   const child1 = runtime.module(define1);
   main.import("Scrubber", child1);
   main.variable(observer("topojson")).define("topojson", ["require"], function(require){return(
@@ -701,98 +663,8 @@ function extractNames (){
   main.variable(observer("lga_names")).define("lga_names", ["extractNames"], function(extractNames){return(
 extractNames()
 )});
-  main.variable(observer("suburbsToLGA")).define("suburbsToLGA", ["FileAttachment"], function(FileAttachment){return(
-FileAttachment("Suburb_and_LGA_PercentageArea@2.csv").csv()
-)});
-  main.variable(observer("postcode_coords")).define("postcode_coords", ["d3"], function(d3){return(
-d3.json("https://raw.githubusercontent.com/Elkfox/Australian-Postcode-Data/master/au_postcodes.json")
-)});
-  main.variable(observer("uniquePostcode")).define("uniquePostcode", ["postcode_coords"], function(postcode_coords){return(
-function uniquePostcode(){
-  var matched = {};
-  var result = [];
-  for(var item, i = 0; item = postcode_coords[i++];){
-    var pscode = item.postcode;
-    if(!(pscode in matched) && item.state_name =="New South Wales"){
-      matched[pscode] = 1;
-      result.push(item);
-      }
-  }
-  return result;
-}
-)});
-  main.variable(observer("unique_postcode_coords")).define("unique_postcode_coords", ["uniquePostcode"], function(uniquePostcode){return(
-uniquePostcode()
-)});
-  main.variable(observer("partial_LGAwithCoords")).define("partial_LGAwithCoords", ["postcode_coords","lga_names","returnCoordsByPostcode"], function(postcode_coords,lga_names,returnCoordsByPostcode){return(
-function partial_LGAwithCoords(){
-  var unique = {};
-  var result = [];
-  var coordinates = [];
-  for(var item, i = 0; item = postcode_coords[i++];){
-    var name = item.place_name.toLowerCase();
-    if(!(name in unique) && lga_names.includes(name) && item.state_name =="New South Wales"){
-      unique[name] = 1;
-      var entry = {lganame: name, coordinate:returnCoordsByPostcode(item.postcode)};
-      result.push(item);
-      coordinates.push(entry);
-      
-      }
-  }
-  
-  return [result,coordinates];
-}
-)});
-  main.variable(observer("lga_partial")).define("lga_partial", ["partial_LGAwithCoords"], function(partial_LGAwithCoords){return(
-partial_LGAwithCoords()[0]
-)});
-  main.variable(observer("lga_coordinates_partial")).define("lga_coordinates_partial", ["partial_LGAwithCoords"], function(partial_LGAwithCoords){return(
-partial_LGAwithCoords()[1]
-)});
-  main.variable(observer("getLeftover")).define("getLeftover", ["lga_names","lga_partial"], function(lga_names,lga_partial){return(
-function getLeftover(){
-  var rest = [];
-  for(var lga, i = 0; lga = lga_names[i++];){
-    //going through each lga to see if it has been selected before
-    if(!lga_partial.some(e => e.place_name.toLowerCase() === lga)){
-      rest.push(lga);
-    }
-  }
-    return rest;
-}
-)});
-  main.variable(observer("leftoverLGA")).define("leftoverLGA", ["getLeftover"], function(getLeftover){return(
-getLeftover()
-)});
-  main.variable(observer("AssignCoordsToLGA")).define("AssignCoordsToLGA", ["suburbsToLGA","leftoverLGA","returnCoordsByPostcode"], function(suburbsToLGA,leftoverLGA,returnCoordsByPostcode){return(
-function AssignCoordsToLGA(){
-  var name,long,lat = "";
-  var result = [];
-  var matched = {};
-  for(var sub, i = 0; sub = suburbsToLGA[i++];){
-    if(leftoverLGA.includes(sub.lganame.toLowerCase()) && !(sub.lganame in matched)){
-      //grab postcode of on of the suburbs of a lga if the lga hasn't been assigned with any coordinates
-      matched[sub.lganame] = 1;
-      var entry = {lganame: sub.lganame.toLowerCase(), coordinate:returnCoordsByPostcode(sub.postcode)};
-      result.push(entry);
-    }
-  }
-  return result;
-}
-)});
-  main.variable(observer("lga_coordinates_rest")).define("lga_coordinates_rest", ["AssignCoordsToLGA"], function(AssignCoordsToLGA){return(
-AssignCoordsToLGA()
-)});
-  main.variable(observer("LGANameToCoords")).define("LGANameToCoords", ["lga_coordinates_partial","lga_coordinates_rest"], function(lga_coordinates_partial,lga_coordinates_rest){return(
-lga_coordinates_partial.concat(lga_coordinates_rest)
-)});
-  main.variable(observer("returnCoordsByPostcode")).define("returnCoordsByPostcode", ["unique_postcode_coords"], function(unique_postcode_coords){return(
-function returnCoordsByPostcode(postcode){
-  var entry = unique_postcode_coords.filter(obj => {
-    return obj.postcode == postcode;
-  });
-  return [entry[0].longitude,entry[0].latitude];
-}
+  main.variable(observer("LGANameToCoords")).define("LGANameToCoords", ["FileAttachment"], function(FileAttachment){return(
+FileAttachment("LGANameToCoords.json").json()
 )});
   main.variable(observer("returnCoordsByName")).define("returnCoordsByName", ["LGANameToCoords"], function(LGANameToCoords){return(
 function returnCoordsByName(name){
@@ -806,9 +678,6 @@ const found = name.match(regex)[0].toLowerCase();
   var lat = entry[0]?.coordinate[1];
   return [long,lat];
 }
-)});
-  main.variable(observer()).define(["returnCoordsByName"], function(returnCoordsByName){return(
-returnCoordsByName("the hills")
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
 require("d3@5")

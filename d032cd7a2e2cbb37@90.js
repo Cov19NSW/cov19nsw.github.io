@@ -1,4 +1,4 @@
-// https://observablehq.com/@wwj/covid-lhd-cases@33
+// https://observablehq.com/@wwj/covid-lhd-cases@90
 import define1 from "./a33468b95d0b15b0@806.js";
 
 export default function define(runtime, observer) {
@@ -12,7 +12,7 @@ md `Select one or more LHDs below to continue (use Ctrl+Click or Cmd+Click to se
   main.variable(observer("viewof lhd")).define("viewof lhd", ["Inputs","lhds"], function(Inputs,lhds){return(
 Inputs.select(lhds, {
   value: ["Central Coast"],
-  label: "Select LHDs",
+  label: "Select LHD(s)",
   multiple: true
 })
 )});
@@ -23,21 +23,22 @@ swatches({ color: d3.scaleOrdinal(lhd, d3.schemeTableau10) })
   main.variable(observer("chart")).define("chart", ["Plot","d3","cases","lhd"], function(Plot,d3,cases,lhd){return(
 Plot.plot({
   y: {
-    label: "↑ New cases"
+    label: "↑ New cases", //label on y Axis
   },
   x: {
-    label: "Date →",
+    label: "Date →", //label on x Axis
     domain: d3.extent(cases, (c) => c.notification_date)
   },
   marks: [
     Plot.rectY(
       cases,
       Plot.binX(
-        { y: "count", title: (d) => d[0].lhd_2010_name },
+        { y: "count", title: (d) => d[0].lhd_2010_name },//read the data of lhd_2010_name in each cases[0]
         {
           x: "notification_date",
+          
           fill: "lhd_2010_name",
-          filter: (d) => lhd.indexOf(d.lhd_2010_name) >= 0,
+          filter: (d) => lhd.indexOf(d.lhd_2010_name) >= 0,//filter and check whether the value is exist in cases.lhd_2010_name
           thresholds: d3.timeDay
         }
       )
@@ -66,10 +67,10 @@ d3
   main.variable(observer("lhds")).define("lhds", function(){return(
 ["Central Coast", "Correctional settings", "Far West", "Hunter New England", "Illawarra Shoalhaven", "Mid North Coast", "Murrumbidgee","Nepean Blue Mountains", "Northern NSW", "Northern Sydney","Sydney", "South Eastern Sydney","Southern NSW", "South Western Sydney", "Western NSW", "Western Sydney"]
 )});
+  const child1 = runtime.module(define1);
+  main.import("swatches", child1);
   main.variable(observer("myColor")).define("myColor", function(){return(
 ["#abdda4","#778899","#FFFACD", "#e15759", "#bab0ab", "#9c755f","#9370DB", "#af7aa1","#D2691E","darkgreen","#191970", "#2E8B57","#FAEBD7", "#9e0142", "#f46d43","#3288bd"]
 )});
-  const child1 = runtime.module(define1);
-  main.import("swatches", child1);
   return main;
 }
