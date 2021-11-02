@@ -3,7 +3,7 @@ import define1 from "./Observable scrubber.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
-  const fileAttachments = new Map([["LGA 2016 population statistics.csv",new URL("./files/504a594b3a5b6bcfed4723cdc6d215691133c141ed68dc97c114a44d685e4f6c54f54b2bea2288b64fd8fc02b332825d500b081970625adc95ab393d25c2e061",import.meta.url)],["LGANameToCoords.json",new URL("./files/NSWRegionPositionCoordinate",import.meta.url)]]);
+  const fileAttachments = new Map([["LGA 2016 population statistics.csv",new URL("./files/LGA2016PopulationStatistics",import.meta.url)],["LGANameToCoords.json",new URL("./files/NSWRegionPositionCoordinate",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
 md`# New South Wales Coronavirus Daily Cases Map (COVID-19)
