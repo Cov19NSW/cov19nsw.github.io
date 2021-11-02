@@ -1,9 +1,9 @@
 import define1 from "./Pie chart.js";
 import define2 from "./Bar chart race.js";
-import define3 from "./efd693194f3388ed@1496.js";
-import define4 from "./df85cae0251ec044@3345.js";
+import define3 from "./Streamgraph.js";
+import define4 from "./Dose Cases Gapminder.js";
 import define5 from "./d032cd7a2e2cbb37@90.js";
-import define6 from "./d51c246e7a0ff214@2248.js";
+import define6 from "./Bubble Map.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
