@@ -2,7 +2,7 @@ import define1 from "./Pie chart.js";
 import define2 from "./Bar chart race.js";
 import define3 from "./Streamgraph.js";
 import define4 from "./Dose Cases Gapminder.js";
-import define5 from "./d032cd7a2e2cbb37@90.js";
+import define5 from "./LHDCasesChart.js";
 import define6 from "./Bubble Map.js";
 
 export default function define(runtime, observer) {

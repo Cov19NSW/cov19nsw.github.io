@@ -22,14 +22,6 @@ To see the working demo, click on the links
 
     ![Replace values](https://i.imgur.com/UtlvU49.png)
     
-### Total page: 2
-- Page 1
-
-    ![Replace values](https://i.imgur.com/Qgg5DQ3.png)
-    
-- Page 2
-
-    ![Replace values](https://i.imgur.com/YSgcTID.png)
     
 ### Bar Chart Race
 - It shows daily changes in the total number of cases in each LHD area.
